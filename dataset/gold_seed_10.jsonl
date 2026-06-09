@@ -1,0 +1,337 @@
+{
+  "pdf_number": "002",
+  "paper": {
+    "title": "Drivers of low-frequency Sahel precipitation variability: comparing CMIP5 and CMIP6 ensemble means with observations",
+    "doi": "",
+    "source_url": "",
+    "pdf_url": "",
+    "local_pdf_path": "data/raw/002.pdf",
+    "year": 2023,
+    "authors": [
+      "Herman, Rebecca Jean",
+      "Biasutti, Michela",
+      "et al."
+    ]
+  },
+  "gold_annotations": {
+    "Activity": [
+      "CMIP"
+    ],
+    "Experiment": [
+      "amip",
+      "hist-GHG",
+      "hist-nat",
+      "historical",
+      "piControl"
+    ],
+    "Frequency": [
+      "Monthly"
+    ],
+    "Source": [
+      "ACCESS1.0",
+      "ACCESS1.3",
+      "BCC-CSM1.1",
+      "BCC-CSM1.1-m",
+      "BESM-OA2.3",
+      "BNU-ESM",
+      "CCSM4",
+      "CCSM4-RSMAS",
+      "CESM-BGC",
+      "CESM1-CAM5",
+      "CESM1-CAM5.1.FV2",
+      "CESM1-FASTCHEM",
+      "CESM1-WACCM",
+      "CFSv2-2011",
+      "CMCC-CESM",
+      "CMCC-CM",
+      "CMCC-CMS",
+      "CNRM-CM5",
+      "CNRM-CM5-2",
+      "CSIRO-Mk3.6.0",
+      "CanAM4",
+      "CanCM4",
+      "CanESM2",
+      "EC-EARTH",
+      "FGOALS-g2",
+      "FGOALS-gl",
+      "FGOALS-s2",
+      "FIO-ESM",
+      "GEOS-5",
+      "GFDL-CM2.1",
+      "GFDL-CM3",
+      "GFDL-ESM2G",
+      "GFDL-ESM2M",
+      "GFDL-HIRAM-C180",
+      "GFDL-HIRAM-C360",
+      "GISS-E2-H",
+      "GISS-E2-H-CC",
+      "GISS-E2-R",
+      "GISS-E2-R-CC",
+      "GISS-E2CS-H",
+      "GISS-E2CS-R",
+      "HadCM3",
+      "HadCM3Q",
+      "HadGEM2-A",
+      "HadGEM2-AO",
+      "HadGEM2-CC",
+      "HadGEM2-ES",
+      "HiGEM1.2",
+      "INM-CM4",
+      "IPSL-CM5A-LR",
+      "IPSL-CM5A-MR",
+      "IPSL-CM5B-LR",
+      "MIROC-ESM",
+      "MIROC-ESM-CHEM",
+      "MIROC4h",
+      "MIROC4m",
+      "MIROC5",
+      "MPI-ESM-HR",
+      "MPI-ESM-LR",
+      "MPI-ESM-MR",
+      "MPI-ESM-P",
+      "MRI-AGCM3.2H",
+      "MRI-AGCM3.2S",
+      "MRI-CGCM3",
+      "MRI-ESM1",
+      "NICAM.09",
+      "NorESM1-M",
+      "NorESM1-ME"
+    ],
+    "Realm": [],
+    "Variable": []
+  },
+  "notes": "Gold labels copied from CMIP publication website. Activity inferred as CMIP because the paper compares CMIP5 and CMIP6 ensemble means. Frequency, Realm, and Variable were not provided in the source snippet."
+}
+{
+  "pdf_number": "003",
+  "paper": {
+    "title": "The contribution of climate change to increasing extreme ocean warming around Japan",
+    "doi": "",
+    "source_url": "",
+    "pdf_url": "",
+    "local_pdf_path": "data/raw/003.pdf",
+    "year": 2022,
+    "authors": [
+      "Hayashi, Michiya",
+      "Shiogama H.",
+      "et al."
+    ]
+  },
+  "gold_annotations": {
+    "Activity": [
+      "CMIP",
+      "ScenarioMIP"
+    ],
+    "Experiment": [
+      "historical",
+      "piControl",
+      "ssp245"
+    ],
+    "Frequency": [
+      "Monthly"
+    ],
+    "Source": [
+      "ACCESS-CM2",
+      "ACCESS-ESM1-5",
+      "BCC-CSM2-MR",
+      "CESM2",
+      "CESM2-WACCM",
+      "CNRM-CM6-1",
+      "CNRM-CM6-1-HR",
+      "CNRM-ESM2-1",
+      "CanESM5",
+      "EC-Earth3",
+      "EC-Earth3-Veg",
+      "FGOALS-f3-L",
+      "FGOALS-g3",
+      "FIO-ESM-2-0",
+      "GFDL-AM4",
+      "GFDL-CM4",
+      "GISS-E2-1-G",
+      "HadGEM3-GC31-LL",
+      "INM-CM4-8",
+      "INM-CM5-0",
+      "IPSL-CM6A-LR",
+      "MIROC-ES2L",
+      "MIROC6",
+      "MPI-ESM1-2-HR",
+      "MPI-ESM1-2-LR",
+      "MRI-ESM2-0",
+      "NESM3",
+      "NorESM2-LM",
+      "NorESM2-MM",
+      "UKESM1-0-LL"
+    ],
+    "Realm": [],
+    "Variable": []
+  },
+  "notes": "Gold labels copied from CMIP publication website. DOI, source URL, PDF URL, Realm, and Variable were not provided in the source snippet."
+}
+{
+    "pdf_number": "004",
+    "paper": {
+      "title": "Predicted changes to the rate of human decomposition due to climate change during the 21st century",
+      "doi": "",
+      "source_url": "",
+      "pdf_url": "",
+      "local_pdf_path": "data/raw/004.pdf",
+      "year": 2023,
+      "authors": [
+        "Strack, Julius",
+        "Smith, Martin J."
+      ]
+    },
+    "gold_annotations": {
+      "Activity": [
+        "ScenarioMIP"
+      ],
+      "Experiment": [
+        "ssp119",
+        "ssp126",
+        "ssp245",
+        "ssp370",
+        "ssp585"
+      ],
+      "Frequency": [
+        "Monthly"
+      ],
+      "Source": [
+        "CanESM5",
+        "IPSL-CM6A-LR",
+        "MIROC6",
+        "MRI-ESM2-0"
+      ],
+      "Realm": [],
+      "Variable": []
+    },
+    "notes": "Gold labels copied from CMIP publication website. DOI, source URL, PDF URL, Realm, and Variable were not provided in the source snippet."
+}
+{
+    "pdf_number": "005",
+    "paper": {
+      "title": "A warming-induced reduction in snow fraction amplifies rainfall extremes",
+      "doi": "",
+      "source_url": "",
+      "pdf_url": "",
+      "local_pdf_path": "data/raw/005.pdf",
+      "year": 2023,
+      "authors": [
+        "Ombadi, Mohammed",
+        "Risser, Mark D.",
+        "et al."
+      ]
+    },
+    "gold_annotations": {
+      "Activity": [
+        "CMIP",
+        "HighResMIP"
+      ],
+      "Experiment": [
+        "highres-future",
+        "highresSST-present",
+        "historical",
+        "ssp126",
+        "ssp245",
+        "ssp370",
+        "ssp585"
+      ],
+      "Frequency": [
+        "1-hourly",
+        "3-hourly",
+        "Daily"
+      ],
+      "Source": [
+        "AWI-CM-1-1-MR",
+        "BCC-CSM2-MR",
+        "CMCC-CM2-SR5",
+        "EC-Earth3",
+        "GFDL-ESM4",
+        "MPI-ESM1-2-HR",
+        "MRI-AGCM3-2-H",
+        "TaiESM1"
+      ],
+      "Realm": [],
+      "Variable": []
+    },
+    "notes": "Gold labels copied from CMIP publication website. DOI, source URL, PDF URL, Realm, and Variable were not provided in the source snippet."
+}
+{
+    "pdf_number": "006",
+    "paper": {
+      "title": "Impact of deoxygenation and warming on global marine species in the 21st century",
+      "doi": "",
+      "source_url": "",
+      "pdf_url": "",
+      "local_pdf_path": "data/raw/006.pdf",
+      "year": 2023,
+      "authors": [
+        "Anne L. Morée",
+        "Thomas L. Frölicher",
+        "et al."
+      ]
+    },
+    "gold_annotations": {
+      "Activity": [
+        "ScenarioMIP"
+      ],
+      "Experiment": [
+        "historical",
+        "piControl",
+        "ssp126",
+        "ssp585",
+        "ssp585-bgc"
+      ],
+      "Frequency": [
+        "Monthly"
+      ],
+      "Source": [
+        "CNRM-ESM2-1",
+        "CanESM5",
+        "GFDL-ESM4",
+        "IPSL-CM6A-LR",
+        "MPI-ESM1-2-HR",
+        "UKESM1-0-LL"
+      ],
+      "Realm": [],
+      "Variable": []
+    },
+    "notes": "Gold labels copied from CMIP publication website. DOI, source URL, PDF URL, Realm, and Variable were not provided in the source snippet."
+}
+{
+    "pdf_number": "007",
+    "paper": {
+      "title": "Climate projections of precipitation and temperature in cities from ABC Paulista, in the Metropolitan Region of São Paulo—Brazil",
+      "doi": "",
+      "source_url": "",
+      "pdf_url": "",
+      "local_pdf_path": "data/raw/007.pdf",
+      "year": 2023,
+      "authors": [
+        "Valverde, María Cleofé",
+        "Calado, Bianca Nunes",
+        "et al."
+      ]
+    },
+    "gold_annotations": {
+      "Activity": [
+        "CMIP"
+      ],
+      "Experiment": [
+        "historical",
+        "rcp45-cmip5",
+        "rcp85-cmip5",
+        "ssp245",
+        "ssp585"
+      ],
+      "Frequency": [
+        "Daily"
+      ],
+      "Source": [
+        "CNRM-CM6-1",
+        "HadCM3"
+      ],
+      "Realm": [],
+      "Variable": []
+    },
+    "notes": "Gold labels copied from CMIP publication website. DOI, source URL, PDF URL, Realm, and Variable were not provided in the source snippet."
+}

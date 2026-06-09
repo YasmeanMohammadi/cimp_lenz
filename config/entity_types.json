@@ -1,0 +1,35 @@
+{
+  "target_entity_types": [
+    {
+      "category": "Activity",
+      "kg_node_label": "Activity",
+      "canonical_id_fields": ["id", "canonical_id", "activity_id", "name", "Name", "uuid", "UUID", "uid", "label", "title"]
+    },
+    {
+      "category": "Experiment",
+      "kg_node_label": "Experiment",
+      "canonical_id_fields": ["id", "canonical_id", "experiment_id", "name", "Name", "experiment", "uuid", "UUID", "uid", "label", "title", "experiment_title"]
+    },
+    {
+      "category": "Frequency",
+      "kg_node_label": "Frequency",
+      "canonical_id_fields": ["id", "canonical_id", "frequency", "name", "Name", "uuid", "UUID", "uid", "label", "title"]
+    },
+    {
+      "category": "Source",
+      "kg_node_label": "Source",
+      "canonical_id_fields": ["id", "canonical_id", "source_id", "name", "Name", "source", "uuid", "UUID", "uid", "label", "title"]
+    },
+    {
+      "category": "Realm",
+      "kg_node_label": "Realm",
+      "canonical_id_fields": ["id", "canonical_id", "realm", "name", "Name", "uuid", "UUID", "uid", "label", "title"]
+    },
+    {
+      "category": "Variable",
+      "kg_node_label": "Variable",
+      "canonical_id_fields": ["id", "canonical_id", "variable_id", "name", "Name", "standard_name", "cf_standard_name", "short_name", "uuid", "UUID", "uid", "label", "title", "variable_long_name"]
+    }
+  ],
+  "label_fields": ["label", "name", "Name", "names", "title", "long_name", "standard_name", "cf_standard_name", "short_name", "variable_long_name", "experiment_title", "id", "uuid", "UUID"]
+}

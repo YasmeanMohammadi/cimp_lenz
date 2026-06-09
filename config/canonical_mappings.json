@@ -1,0 +1,14 @@
+{
+  "Activity": {},
+  "Experiment": {
+    "abrupt-4xCO2": "abrupt-4xCO2",
+    "abrupt4xCO2": "abrupt-4xCO2"
+  },
+  "Frequency": {
+    "1-hourly": "1hr",
+    "3-hourly": "3hr"
+  },
+  "Source": {},
+  "Realm": {},
+  "Variable": {}
+}

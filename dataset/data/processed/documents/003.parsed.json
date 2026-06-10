@@ -1,0 +1,2374 @@
+{
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "1. Introduction The global ocean has absorbed the excess heat due to human activities by more than 90% (IPCC, 2021), impact- ing the natural environment and socioeconomic system (Smith et al., 2021). The increased ocean heat results in higher chances of discrete but unprecedentedly warm sea surface temperatures (SSTs), which are often accompa- nied by marine heatwaves (Oliver, 2019). Using observational data and climate model simulations, recent studies have revealed that anthropogenic climate change has increased the severity and frequency of marine heatwaves over the past century globally (Frölicher et al., 2018; Laufkötter et al., 2020; Oliver et al., 2018; Pilo et al., 2019; Plecha & Soares, 2020) and in specific regions, such as the tropical Pacific (Holbrook et al., 2022), Northeast Pacific (Amaya et al., 2020; Barkhordarian et al., 2022), North Atlantic (Plecha et al., 2021), Indian Ocean (Saranya et al., 2022), Mediterranean Sea (Darmaraki et al., 2019), and East Asian marginal seas (Li et al., 2019; Miyama et al., 2021; Wang et al., 2022; Yao et al., 2020). Understanding the long-term change in regional SST extremes is challenging due to the limitations of climate models, such as coarse resolution (Hayashida et al., 2020; Pilo et al., 2019; Qiu et al., 2021), but critical for informing impact assessment studies and policy-makers. The Japan Meteorological Agency (JMA) provides operational SST forecasts in 10 monitoring areas surrounding Japan and irregularly reports monthly SST extremes, but the influence of climate change therein has rarely been evaluated due to the lack of sufficient evidence. Using multiple climate models of the Coupled Model Intercom- parison Project Phase 6 (CMIP6, Eyring et al., 2016), Hayashi et al. (2021) quantified the substantial impact of anthropogenic forcing on the record high SST in August 2020 over the northwestern Pacific, including southern Japan. Meanwhile, it was also demonstrated that the record high SST in July 2021 around northern Japan could Abstract Global warming is attributed to human activities that potentially cause record warm sea surface temperatures (SSTs) worldwide. However, to what extent climate change has altered discrete extreme ocean warming (EOW) around Japan remains unclear. Here, we show the impact of global warming on EOW events (high SSTs less frequent than once per 20 years at the preindustrial level) surrounding Japan in each calendar month for 1982–2022 using climate models. In contrast to the gradually increasing occurrences of EOW events, the most frequent events occurred in approximately 1998 and the mid-2010s, especially in southern Japan. We found climate change was not yet dominant in the 1998 events but has multiplied the occurrence probability of most events by at least twice since 2000. Furthermore, we estimated that the possibility of the future normal climate exceeding record high SSTs can be sharply reduced by limiting global warming from 2°C to 1.5°C. Plain Language Summary Human activities have warmed the Earth's surface since industrialization, so we have often experienced unprecedentedly high sea surface temperatures (SSTs) worldwide. However, it is still challenging to quantitatively understand how much long-term climate change has affected the probability of discrete extreme ocean warming occurrences in specific regions. In this study, we used multiple observational datasets and climate model simulations to identify monthly extreme sea surface warming events that occur around Japan less frequently than once every 20 years under preindustrial climate conditions. Extreme warming events gradually become more frequent as global warming progresses, but a large number of these events episodically emerged in approximately 1998 and the mid-2010s. This is more evident on the southern side than on the northern side of Japan. This study revealed that natural variability mainly caused extreme warming events in 1998, but climate change has been the dominant factor driving extreme warming events since 2000. We also estimated the future change in the chances of experiencing SSTs warmer than the highest records. Our results pointed out that the ocean surface surrounding Japan would exceed the present record high temperatures every 2 years unless global warming could be suppressed from 2°C to 1.5°C. HAYASHI ET AL. © 2022. The Authors. This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited. The Contribution of Climate Change to Increasing Extreme Ocean Warming Around Japan M. Hayashi1 , H. Shiogama1 , and T. Ogura1 1Earth System Division, National Institute for Environmental Studies, Tsukuba, Japan Key Points: • \u0007The contribution of climate change to discrete extreme ocean warming (EOW) from January 1982 through July 2022 around Japan is estimated • \u0007The occurrence chance of EOW is generally higher in southern Japan, more than doubled since 2000 due to climate change • \u0007Limiting global warming from 2°C to 1.5°C sharply reduces the possibility of normal climate exceeding record warm ocean surface Supporting Information: Supporting Information may be found in the online version of this article. Correspondence to: M. Hayashi, hayashi.michiya@nies.go.jp Citation: Hayashi, M., Shiogama, H., & Ogura, T. (2022). The contribution of climate change to increasing extreme ocean warming around Japan. Geophysical Research Letters, 49, e2022GL100785. https://doi.org/10.1029/2022GL100785 Received 11 AUG 2022 Accepted 8 SEP 2022 Author Contributions: Conceptualization: M. Hayashi, H. Shiogama, T. Ogura Data curation: M. Hayashi Formal analysis: M. Hayashi Funding acquisition: H. Shiogama, T. Ogura Investigation: M. Hayashi Methodology: M. Hayashi, H. Shiogama, T. Ogura Project Administration: H. Shiogama, T. Ogura Resources: M. Hayashi Software: M. Hayashi Supervision: H. Shiogama, T. Ogura Validation: M. Hayashi Visualization: M. Hayashi 10.1029/2022GL100785 RESEARCH LETTER 1 of 10"
+    },
+    {
+      "page_number": 2,
+      "text": "Geophysical Research Letters HAYASHI ET AL. 10.1029/2022GL100785 2 of 10 be driven mainly by atmospheric natural variability (Kuroda & Setou, 2021), although the contribution of global warming remains in question. A comprehensive analysis of long-term data in different areas and seasons around Japan is needed to reveal how much climate change has altered the occurrence frequency of regional discrete sea surface warming. This study investigates monthly extreme ocean warming (EOW) events around Japan in each calendar month by focusing on the 10 operational monitoring areas defined by the JMA. We first evaluate the consistency of the CMIP6 model ensemble with the observed trends of regional SSTs for 1982–2021. Then, EOW events are identi- fied from an observational SST data set from January 1982 through July 2022, and the impacts of anthropogenic climate change on these events are quantified. We also quantify the probability changes of exceeding the observed highest SSTs in the past 40 years at different global warming levels from 0°C to 2°C. 2. Data The main observational SST analysis data are Centennial in situ Observation-Based Estimates of the Variability of SST and Marine Meteorological Variables version 2 from January 1982 through July 2022 (COBE2, Hirahara et al., 2014). Note that COBE2 in July 2022 is yet preliminary. We also use three SST reanalysis datasets: the National Oceanic and Atmospheric Administration 0.25-degree Daily Optimum Interpolation SST version 2.1 for 1982–2021 (OISST, Banzon et al., 2020), Hadley Centre Sea Ice and SST version 1.1 for 1870–2021 (HadISST, Rayner et al., 2003), and Extended Reconstructed SST version 5 for 1854–2021 (ERSST5, Huang et al., 2017). This study focuses on the 40-year period of 1982–2021 when these annual datasets are all available. The CMIP6 climate models listed in Table S1 of Supporting Information S1 provide the historical and SSP2-4.5 (a middle-of-the-road scenario in shared socioeconomic pathways) simulations for 1850–2100 and the preindus- trial control simulations for 200 years. Hereafter, the CMIP6 ensemble consists of 24 models that have equilib- rium climate sensitivity (Gregory et al., 2004) within its very likely range of IPCC (2021), that is, 2°C–5°C. In each model, the monthly climatological SST bias relative to COBE2 for the base period 1951–2000 is removed at each remapped 1° grid (Diffenbaugh & Scherer, 2013; Krinner et al., 2008). Then, all the monthly SST datasets are averaged in 10 monitoring areas (Figure 1a), which are operationally used by the JMA (https://www.data. jma.go.jp/gmd/kaiyou/data/db/kaikyo/ocean/forecast/month.html, accessed 2 August 2022). The observational time series and the CMIP6 probability ranges are provided in Figure S1 of Supporting Information S1. We also analyze the global warming level (GWL), defined as the global mean annual near-surface air temperature relative to 1850–1900, in each model for 1901–2100. 3. Results 3.1. Observed and Simulated SST Warming The annual SST warming for 1982–2021 in the northwestern Pacific is compared between COBE2 and the CMIP6 ensemble (Figures 1a and 1b; Figure S2 in Supporting Information S1 for each data set). The observed warming trend on the northern side of Japan, estimated by ordinary least squares fitting, is higher than that on the southern side. The CMIP6 ensemble mean reproduces the overall warming amplitude and the south-north contrast. Figure 1c provides a quantitative comparison of the SST trend in the 10 monitoring areas. The trends in the three reanalysis datasets (ERSST5, HadISST, and OISST) are within the 95% confidence intervals of COBE2 in all areas. The results from the CMIP6 ensemble (box-and-whisker plots) show high uncertainty in the north- ern areas (JP01–JP04). Nevertheless, the 95% confidence intervals in the CMIP6 ensemble means capture the confidence intervals of trends in COBE2 well, except for JP02, where the simulated warming is too high, so few models reproduce the observed trend. Therefore, the CMIP6 ensemble simulates past 40-year SST trends consist- ent with observed levels in nine monitoring areas (JP01, JP03–JP10). Hereafter, JP02 is omitted. The simulated warming trend reaches its peak during summer-autumn (June–November) regardless of area (Figure 2a), which is consistent with the reanalysis average (Figure S3 in Supporting Information S1) and in common over Northern Hemisphere (Figure S4 in Supporting Information S1). On the Pacific side of Japan (JP04 and JP06–JP10), such seasonality is also apparent in the ensemble mean SST anomalies for 2017–2021 relative to the preindustrial ensemble mean (Figure 2b and Figures S5a–S5d in Supporting Information S1). In the Japan Sea (JP01 and JP03) and East China Sea (JP05), however, peaks in the SST anomalies are shifted to autumn-winter (September-February) so that the south-north warming contrast around Japan diminishes during Writing – original draft: M. Hayashi Writing – review & editing: M. Hayashi, H. Shiogama, T. Ogura"
+    },
+    {
+      "page_number": 3,
+      "text": "Geophysical Research Letters HAYASHI ET AL. 10.1029/2022GL100785 3 of 10 summer. In contrast, the SST anomalies for 1982–1986 are negative in the North Pacific (Figure S5e–S5h in Supporting Information S1), which are significant over the northern areas (JP01–JP04) and JP05 especially in summer (Figure 2c). The seasonally enhanced warming anomalies during June–November in 2017–2021 are characterized by inter- hemispheric asymmetry (Figure S5d in Supporting Information S1). It is known that the interhemispheric annual mean SST asymmetry has increased since the 1980s in response to anthropogenic greenhouse gases due to, for example, larger landmass extent in Northern Hemisphere (Friedman et al., 2020). In addition, according to Song et al. (2018), the cross-equatorial atmospheric energy transport is enhanced southward during the boreal late summer and autumn in a warming climate through the constraint of the Clausius-Clapeyron relation, shifting the Hadley circulation and tropical rain belt northward further in Northern Hemisphere. Such seasonal differences in the tropical widening under global warming (see also, Davis & Rosenlof, 2012; Nguyen et al., 2013) can contrib- ute to the interhemispheric warming asymmetry by changing the ocean heat transport and surface heat flux, and thus enhance the SST warming around Japan during summer-autumn (Figure 2b). The negative SST anomalies in 1982–1986 that extend to the North Pacific (Figure 2c and Figures S5e–S5h in Supporting Information S1) can be interpreted as response to anthropogenic aerosol emission changes. Prior to the 1980s, increasing global sulfate emissions reduce SSTs in the North Pacific, especially to the north of Japan, via large-scale circulation changes (Diao et al., 2021; Toda & Watanabe, 2020; Xie et al., 2013). According to Zhang et al. (2022), the northern mid-latitude cooling dominates in boreal summer because the shortwave cooling overwhelms the longwave warming in response to aerosol. The continuous reduction of aerosol emissions from Figure 1. Observed and simulated sea surface temperature (SST) warming for 1982–2021 (°C per 40 years). Horizontal patterns of the annual mean SST trends in (a) COBE2 and (b) the Coupled Model Intercomparison Project Phase 6 (CMIP6) ensemble. (c) Regional trends in 10 monitoring areas: the CMIP6 ensemble mean (black circles with error bars for the 95% confidence intervals of ensemble mean, based on a t test), COBE2 (red circles with error bars for the 95% confidence intervals of trend), Extended Reconstructed SST version 5 (ERSST5) (cyan stars), Hadley Centre Sea Ice and SST version 1.1 (HadISST) (blue stars), and Optimum Interpolation SST version 2.1 (OISST) (green stars). Box-and-whisker plots indicate the median, interquartile range, 5th–95th percentile range, and outliers of the regional trends in the CMIP6 ensemble."
+    },
+    {
+      "page_number": 4,
+      "text": "Geophysical Research Letters HAYASHI ET AL. 10.1029/2022GL100785 4 of 10 Western Hemisphere since the 1980s have reduced the cooling effect (Diao et al., 2021) and results in the higher summer warming trends over the North Pacific, causing the apparent south-north contrast of warming trends around Japan (Figure 2a). Note that anthropogenic aerosol emissions remain substantial even in the 21st century compared to preindustrial era (e.g., Diao et al., 2021), and thus, still contribute to reducing the positive SST anomalies in 2017–2021 at JP01–JP05 especially during summer (Figure 2b), delaying the warming anomaly peaks to autumn-winter. The signal-to-noise (SN) ratio during 1982–2021 is defined as 휎2 푆∕ ( 휎2 푆+ 휎2 푁 ) (Figure 2d). Here, the signal σS is the root-mean-squared ensemble mean anomaly for 1982–2021, which resembles the warming anomalies in 2017–2021 (Figure 2b) rather than the 40-year warming trend (Figure 2a). Its seasonal differences among the nine monitoring areas can be interpreted as discussed above. The noise σN is the standard deviation of the 200-year preindustrial simulations that is basically high in boreal summer (June–August), more considerably in the northern areas (Figure 2f). These features in σN are reproduced by the reanalysis datasets and by the historical and SSP2-4.5 simulations well (Figures S3d–S3f and S6 in Supporting Information S1), indicating that the inter- nal variability is not sensitive to data and climate change. We confirmed that the seasonality in maxima of σN can be thermodynamically explained by the higher standard deviation of the net surface heat flux and the shallower mean state mixed-layer depth (Figure S7 in Supporting Information S1), except for JP04 and JP05 where ocean dynamics may further increase σN in boreal spring. The seasonal and regional dependences in the signal and noise determine the SN ratio as follows (Figure 2d). A large SN ratio exceeding 0.5 (i.e., σS > σN) appears in the southern areas (JP06–JP10) during June-December because of high σS and low σN. The SN ratio minima appear earlier in JP08–JP10 than in JP06-JP07 due to seasonally high σN. In the Japan Sea (JP01 and JP03), the SN ratio is minimal in summer (June–August), as σN is the highest. The seasonal maxima of the SN ratio in JP04 and JP05 appear during autumn (September– November) when σS is high and σN is low. These results are robust even when a late period, such as a 30-year period of 1992–2021, was selected except that σS and the SN ratio are enhanced overall (Figure S8 in Supporting Information S1). Figure 2. Simulated warming and signal-to-noise (SN) ratio for 1982–2021. (a) The Coupled Model Intercomparison Project Phase 6 (CMIP6) ensemble mean of sea surface temperature (SST) trends (°C per 40 years). (b, c) The ensemble mean SST anomalies for 2017–2021 and 1982–1986 (°C) relative to the preindustrial ensemble mean. The 95% significance values, based on a t test, are stippled. (d, e, f) The SN ratio [𝐴𝐴2 𝑆𝑆∕(𝜎𝜎2 𝑆𝑆+ 𝜎𝜎2 𝑁𝑁 ) ; above 0.5 is hachured], the standard deviations of signal (σS; °C), and the standard deviations of noise (σN; °C)."
+    },
+    {
+      "page_number": 5,
+      "text": "Geophysical Research Letters HAYASHI ET AL. 10.1029/2022GL100785 5 of 10 3.2. Extreme Events and Climate Change EOW events are defined as follows. The probability density function of SST under the preindustrial condition for 200 years, pdf(SST), is calculated using the Epanechnikov kernel function (Kimoto & Ghil, 1993). The pdf(SST) is bootstrapped 1,000 times to derive the median and 95% confidence interval (2.5th–97.5th percen- tiles) of the exceedance distribution function, 1 −∫ SST −∞pdf(𝑧𝑧)𝑑𝑑𝑑𝑑 , yielding the preindustrial probability of exceed- ing an observed SST of COBE2 (Probpreindustrial). The observed SST having the Probpreindustrial median equal to or less than 0.05 per year (return period of 20 years or longer) is identified as an EOW event (Figure 3). See Data Set S1 for the detailed values. As the SST gradually becomes warmer with time, the number of EOW events increases (stippled or hatched). The bar plots in Figure 3 quantify the annual total months of events. The frequent EOW occurrences emerge in approximately 1998 and after the mid-2010s. During these periods, even 1-in-100- year events are observed successively in the southern areas (JP06–JP10). In contrast, the occurrence numbers are relatively low in the northern areas (JP01–JP04) and JP05 but gradually increase after 2010, except in JP04. The south-north contrast of event occurrences results from the regional difference in noise (Figure 2f). Importantly, all areas have experienced 1-in-100-year events in more than two months since 2010, indicating the increased frequency of EOW occurrences in the present climate than in the 20th century or before. The contribution of climate change to the observed SST variability since 1982 is estimated by the fraction of attributable risk (FAR) for the regional monthly SST of COBE2. Here, the FAR is defined as 1–Probpreindustrial/ Probpresent (Laufkötter et al., 2020; Stott et al., 2004, 2016), where Probpresent is the probability of exceeding an observed SST in the 5-year running periods during 1982–2022 (hereafter termed “present” conditions: e.g., 5-year simulations for 1980–1984 are used for determining Probpresent in 1982). FAR equal to 0.5 or 0.9 corre- sponds to the probability doubled or increased tenfold from the preindustrial to present conditions. We test FAR if it exceeds a specific level at the 95% statistical confidence by calculating a conservative FAR, which is derived from the 97.5th percentile of Probpreindustrial and the 2.5th percentile of Probpresent based on 1,000 times bootstrapping. In Figure 3, the FAR values significantly greater than 0.5 (hachured or stippled) begin to emerge in the 2000s, but the time of emergence shows seasonal dependences in each area. In the Japan Sea (JP01 and JP03), the FAR is low from late spring to early autumn (May–September) until approximately 2010. The FAR is also low in JP04 and JP05 during most seasons except for autumn (September–November). The southern areas (JP06–JP10) show relatively high FAR values, especially since the mid-2010s, except for early summer (May–July) in JP06 and JP07, late spring (April–June) in JP09, and spring (March–May) in JP10. These seasonal features of the FAR are consistent with the SN ratio (Figure 2d). Despite such seasonality, the FAR began to successively exceed 0.5 in all the monitoring areas by the mid-2010s. Whether the EOW events result from climate change is assessed. The bar plots in Figure 3 are the annual total months of events as in Figure 3 but are filled with colors in case the FAR significantly exceeds the threshold of 0.5 (orange) or 0.9 (dark red). An EOW event accompanied by a FAR exceeding 0.5 significantly indicates that climate change is the major factor for its occurrence. Most of the EOW events before 2000 are not attributable to climate change, even in 1998, when many events were identified in all areas. The frequent EOW events in 1998 potentially result from the transition from a strong El Niño to La Niña, as mentioned in previous studies (Lee et al., 2020, 2022; Yao et al., 2020). In contrast, the majority of events are accompanied by FAR values exceeding 0.5 after 2000. The annual total number of events has rapidly increased since the mid-2010s, and all these events are attributed to climate change, except for a few cases at JP01 and JP03 in July 2021 and at JP01 and JP05 in August 2016. The relative number of times that the FAR has exceeded 0.9 (dark red) has increased since the mid-2010s in the southern areas (JP06–JP10). In July 2022, for instance, the FAR for EOW events significantly exceeds 0.9 at JP08 and JP10 while 0.5 at JP01, JP03, and JP05 (Figure 3 and Figure S9 in Supporting Informa- tion S1). These results imply that climate change has already become the major factor for most of the record high SST in recent years around Japan. 3.3. Probability Changes of Exceeding the Past Highest SSTs When will the normal climate reach record high SSTs and beyond? Because of uncertainty among the four reanal- ysis datasets, the maximum SSTs in each calendar month during 1982–2021 span from the lower (Figure 4a) to upper bounds (Figure 4b). We selected years of the CMIP6 simulations realizing monthly SSTs for 1901–2100"
+    },
+    {
+      "page_number": 6,
+      "text": "Geophysical Research Letters HAYASHI ET AL. 10.1029/2022GL100785 6 of 10 Figure 3. Monthly sea surface temperature (SST) anomalies, extreme ocean warming events, and the contribution of climate change to the SST variability in each monitoring area for 1982–2022. (a–i) The upper panels indicate the SST anomalies of COBE2 relative to 1991–2020 and the identified events less frequent than 1-in- 100 years are hatched or otherwise stippled. The lower panels indicate the fraction of attributable risk (FAR), hachured or stippled when it significantly exceeds 0.5 or 0.9. Bar plots in the middle panels show the annual total months of the events, filled with orange and dark red colors for FAR exceeding 0.5 and 0.9 significantly, and those of 1-in-100 years or less frequent events are overlayed with lines. Undefined values are filled with black. (j) Nine monitoring areas."
+    },
+    {
+      "page_number": 7,
+      "text": "Geophysical Research Letters HAYASHI ET AL. 10.1029/2022GL100785 7 of 10 within these SST ranges to calculate the probability density function of GWLs, pdf(GWL) (cf. Figure 4 of Hayashi et al., 2021). The width of each pdf(GWL) represents the intermodel uncertainty as well as internal variability at the interannual or longer timescales. The inverse of the corresponding cumulative distribution func- tion, 1∕∫ GWL –∞pdf(𝑧𝑧)𝑑𝑑𝑑𝑑 , yields the return period of the past maximum SSTs at specific GWLs from 0°C to 2°C. In Figures 4c–4f, the return period significantly shorter than 2 years at the 95% confidence level is highlighted with stipples, indicating normal climate conditions beyond the past maximum SSTs. While the return period is Figure 4. Global warming and record high sea surface temperatures (SSTs). (a, b) The lower and upper bounds of the maximum SSTs during 1982–2021 in the four reanalysis datasets. (c–f) Return periods of the SST between the maximum SST ranges at GWLs of 0, 1.1, 1.5, and 2°C. Stippling indicates that the return period is significantly less than 2 years at the 95% confidence level based on 1,000 bootstrap replicates."
+    },
+    {
+      "page_number": 8,
+      "text": "Geophysical Research Letters HAYASHI ET AL. 10.1029/2022GL100785 8 of 10 in most cases on the order of 10–100 years or longer at the 0°C GWL (Figure 4c), it tends to reach 10 years or shorter at the 1.1°C GWL (Figure 4d), which approximates the present-day level. When the GWL is 1.5°C, the return period is significantly reduced further but not yet below 2 years, except for a few cases (Figure 4e). In contrast, at the 2°C GWL (Figure 4f), the return period is projected to reach 2 years in all the regions in at least one of the calendar months. The results indicate that limiting global warming to 1.5°C is efficient for reducing the chances of experiencing the new normal climate equivalent to or warmer than the observed record high SSTs around Japan. 4. Conclusions and Discussion This study revealed the long-term probability change in monthly EOW events in 10 monitoring areas around Japan (JP01–JP10) from January 1982 through July 2022 and the influence of global warming therein using four SST reanalysis and 24 CMIP6 climate models. Since the CMIP6 ensemble reproduced the observed SST trends except in one of the 10 monitoring areas, JP02, nine monitoring areas were analyzed (Figure 1). The signal-to-noise ratio between the ensemble mean anomalies in 1982–2021 and the preindustrial noise indicates the south-north contrast and seasonal dependence of the emergence of climate change impacts on SST around Japan that can be interpreted by thermodynamic analysis and previous studies (Figure 2). For each area and calendar month, EOW events were identified in case the occurrence probability of exceeding the observed SST level was once per 20 years or less in the preindustrial simulations. As a result, the number of EOW events gradually increased between 1982 and 2022, with episodically frequent EOW events in approximately 1998 and after the mid-2010s (Figure 3). Based on the FAR, we found that the impact of climate change was minor for the EOW events in approximately 1998, but the occurrence probability was at least doubled due to climate change for most events that occurred after 2000. EOW events were more frequently observed in the southern areas (JP06–JP10), some of whose occurrence prob- ability increased tenfold or more since the mid-2010s. Therefore, in the present climate, extreme SST warming around Japan is mostly attributable to climate change. The CMIP6 ensemble also indicates that the normal climate condition becomes equivalent to or warmer than the observed record high SSTs once global warming relative to 1850–1900 reaches 2°C (Figure 4). Limiting global warming below 1.5°C, which requires a rapid acceleration of mitigation efforts (IPCC, 2022), will efficiently reduce the possibility of experiencing such a new normal climate. Methods to estimate Probpreindustrial and Probpresent may affect EOW events and the FAR. First, as the model bias correction is based on the period 1951–2000, the SST mean states in the preindustrial simulations have inter- model spread due to uncertainty of the forced response, overestimating the preindustrial SST standard deviation (σN) more than the internal noise by up to approximately 20%, especially in the northern areas (JP01-JP05) from boreal summer to autumn (Figure S4 in Supporting Information S1). The potential influence of this issue on Probpreindustrial is evaluated by fixing the mean state of each model with the preindustrial ensemble mean (Figure S10 in Supporting Information S1), showing that the event occurrence number and the FAR are overall higher than those in Figure 3. Such uncertainty may be reduced by further analyzing large ensembles of multiple climate models, if available, to determine the exact internal noise. Second, constraining the CMIP6 ensemble by climate sensitivity may also impact Probpresent. We have tested whether the results in Figure 3 are changed when all models listed in Table S1 in Supporting Information S1 are used regardless of their climate sensitivity (Figure S11 in Supporting Information S1). The FAR tends to be higher when the CMIP6 ensemble consists of 30 models, including 4 models that have climate sensitivities of 5.2–5.6°C. These two supplementary analyses indicate that our results in Figure 3 are conservative estimates but yield the same conclusions. The present results are based on a probabilistic approach, but it is also important to understand the dynamics of each EOW event or related marine heatwave and its long-term changes due to global warming in atmosphere-ocean coupled systems. For a dynamic approach, increasing the coupled model resolution is required to better reproduce the ocean temperature and currents that have fine structures such as the Kuroshio-Oyashio extension (Hayashida et al., 2020; Kohyama et al., 2021). Combining these approaches will further quantify the past and future changes in regional SST extremes. Data Availability Statement The CMIP6 data set is available at https://esgf-node.llnl.gov/projects/cmip6/, COBE2 at https://climate.mri-jma. go.jp/pub/ocean/cobe-sst2/ and also at NEAR-GOOS RRTDB https://ds.data.jma.go.jp/gmd/goos/data/pub/ JMA-product/cobe2_sst_glb_M/, HadISST at https://www.metoffice.gov.uk/hadobs/hadisst/data/download.html, ERSST5 at https://www1.ncdc.noaa.gov/pub/data/cmb/ersst/v5/netcdf/, and OISST at https://www.ncei.noaa."
+    },
+    {
+      "page_number": 9,
+      "text": "Geophysical Research Letters HAYASHI ET AL. 10.1029/2022GL100785 9 of 10 gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/. A python software for identifying EOW events and calculating FAR is available at https://doi.org/10.6084/m9.figshare.20438826. References Amaya, D. J., Miller, A. J., Xie, S.-P., & Kosaka, Y. (2020). Physical drivers of the summer 2019 North Pacific marine heatwave. Nature Commu- nications, 11(1), 1903. https://doi.org/10.1038/s41467-020-15820-w Banzon, V., Smith, T. M., Steele, M., Huang, B., & Zhang, H.-M. (2020). Improved estimation of proxy sea surface temperature in the Arctic. Journal of Atmospheric and Oceanic Technology, 37(2), 341–349. https://doi.org/10.1175/JTECH-D-19-0177.1 Barkhordarian, A., Nielsen, D. M., & Baehr, J. (2022). Recent marine heatwaves in the North Pacific warming pool can be attributed to rising atmospheric levels of greenhouse gases. Communications Earth & Environment, 3(1), 131. https://doi.org/10.1038/s43247-022-00461-2 Darmaraki, S., Somot, S., Sevault, F., Nabat, P., Narvaez, W. D. C., Cavicchia, L., et al. (2019). Future evolution of marine heatwaves in the Mediterranean Sea. Climate Dynamics, 53(3–4), 1371–1392. https://doi.org/10.1007/s00382-019-04661-z Davis, S. M., & Rosenlof, K. H. (2012). A multidiagnostic intercomparison of tropical-width time series using reanalyses and satellite observa- tions. Journal of Climate, 25(4), 1061–1078. https://doi.org/10.1175/JCLI-D-11-00127.1 Diao, C., Xu, Y., & Xie, S.-P. (2021). Anthropogenic aerosol effects on tropospheric circulation and sea surface temperature (1980–2020): Separating the role of zonally asymmetric forcings. Atmospheric Chemistry and Physics, 21(24), 18499–18518. https://doi.org/10.5194/ acp-21-18499-2021 Diffenbaugh, N. S., & Scherer, M. (2013). Likelihood of July 2012 US temperatures in preindustrial and current forcing regimes [in “explaining extreme events of 2012 from a climate perspective”]. Bulletin of the America Meteorological Society, 94, S6–S9. https://doi.org/10.1175/ BAMS-D-13-00085.1 Eyring, V., Bony, S., Meehl, G. A., Senior, C. A., Stevens, B., Stouffer, R. J., & Taylor, K. E. (2016). Overview of the coupled model intercom- parison Project Phase 6 (CMIP6) experimental design and organization. Geoscientific Model Development, 9(5), 1937–1958. https://doi. org/10.5194/gmd-9-1937-2016 Friedman, A. R., Hegerl, G. C., Schurer, A. P., Lee, S., Kong, W., Cheng, W., & Chiang, J. C. H. (2020). Forced and unforced decadal behavior of the interhemispheric SST contrast during the instrumental period (1881–2012): Contextualizing the late 1960s–early 1970s shift. Journal of Climate, 33(9), 3487–3509. https://doi.org/10.1175/JCLI-D-19-0102.1 Frölicher, T. L., Fischer, E. M., & Gruber, N. (2018). Marine heatwaves under global warming. Nature, 560(7718), 360–364. https://doi. org/10.1038/s41586-018-0383-9 Gregory, J. M., Ingram, W. J., Palmer, M. A., Jones, G. S., Stott, P. A., Thorpe, R. B., et al. (2004). A new method for diagnosing radiative forcing and climate sensitivity. Geophysical Research Letters, 31(3), L03205. https://doi.org/10.1029/2003gl018747 Hayashi, M., Shiogama, H., Emori, S., Ogura, T., & Hirota, N. (2021). The northwestern Pacific warming record in August 2020 occurred under anthropogenic forcing. Geophysical Research Letters, 48(1), e2020GL090956. https://doi.org/10.1029/2020GL090956 Hayashida, H., Matear, R. J., Strutton, P. G., & Zhang, X. (2020). Insights into projected changes in marine heatwaves from a high-resolution ocean circulation model. Nature Communications, 11(1), 4352. https://doi.org/10.1038/s41467-020-18241-x Hirahara, S., Ishii, M., & Fukuda, Y. (2014). Centennial-scale sea surface temperature analysis and its uncertainty. Journal of Climate, 27(1), 57–75. https://doi.org/10.1175/JCLI-D-12-00837.1 Holbrook, N. J., Hernaman, V., Koshiba, S., Lako, J., Kajtar, J. B., Amosa, P., & Singh, A. (2022). Impacts of marine heatwaves on tropical western and central Pacific Island nations and their communities. Global and Planetary Change, 208, 103680. https://doi.org/10.1016/j. gloplacha.2021.103680 Huang, B., Thorne, P. W., Banzon, V. F., Boyer, T., Chepurin, G., Lawrimore, J. H., et al. (2017). Extended reconstructed sea surface temper- ature, version 5 (ERSSTv5): Upgrades, validations, and intercomparisons. Journal of Climate, 30(20), 8179–8205. https://doi.org/10.1175/ JCLI-D-16-0836.1 IPCC. (2021). Summary for policymakers. In V. Masson-Delmotte, P. Zhai, A. Pirani, S. L. Connors, C. Péan, S. Berger, et al. (Eds.), Climate change 2021: The physical science basis. Contribution of working group I to the sixth assessment report of the intergovernmental panel on climate change. Cambridge University Press. IPCC. (2022). Summary for policymakers. In P. R. Shukla, J. Skea, R. Slade, A. Al Khourdajie, R. van Diemen, D. McCollum, et al. (Eds.), Climate change 2022: Mitigation of climate change. Contribution of working group III to the sixth assessment report of the intergovernmental panel on climate change. Cambridge University Press. https://doi.org/10.1017/9781009157926.001 Kimoto, M., & Ghil, M. (1993). Multiple flow regimes in the Northern Hemisphere winter. Part I: Methodology and hemispheric regimes. Jour- nal of the Atmospheric Sciences, 50(16), 2625–2644. https://doi.org/10.1175/1520-0469(1993)050<2625:MFRITN>2.0.CO;2 Kohyama, T., Yamagami, Y., Miura, H., Kido, S., Tatebe, H., & Watanabe, M. (2021). The Gulf Stream and Kuroshio current are synchronized. Science, 374(6565), 341–346. https://doi.org/10.1126/science.abh3295 Krinner, G., Guicherd, B., Ox, K., Genthon, C., & Magand, O. (2008). Influence of oceanic boundary conditions in simulations of Antarctic climate and surface mass balance change during the coming century. Journal of Climate, 21(5), 938–962. https://doi.org/10.1175/2007JCLI1690.1 Kuroda, H., & Setou, T. (2021). Extensive marine heatwaves at the sea surface in the northwestern Pacific Ocean in summer 2021. Remote Sens- ing, 13(19), 3989. https://doi.org/10.3390/rs13193989 Laufkötter, C., Zscheischler, J., & Frölicher, T. L. (2020). High-impact marine heatwaves attributable to human-induced global warming. Science, 369(6511), 1621–1625. https://doi.org/10.1126/science.aba0690 Lee, S., Park, M.-S., Kwon, M., Kim, Y. H., & Park, Y.-G. (2020). Two major modes of East Asian marine heatwaves. Environmental Research Letters, 15(7), 074008. https://doi.org/10.1088/1748-9326/ab8527 Lee, S.-B., Yeh, S.-W., Lee, J.-S., Park, Y.-G., Kwon, M., Jun, S.-Y., & Jo, H. S. (2022). Roles of atmosphere thermodynamic and ocean dynamic processes on the upward trend of summer marine heatwaves occurrence in East Asian marginal seas. Frontiers in Marine Science, 9, 889500. https://doi.org/10.3389/fmars.2022.889500 Li, Y., Ren, G., Wang, Q., & You, Q. (2019). More extreme marine heatwaves in the China Seas during the global warming hiatus. Environmental Research Letters, 14(10), 104010. https://doi.org/10.1088/1748-9326/ab28bc Miyama, T., Minobe, S., & Goto, H. (2021). Marine heatwave of sea surface temperature of the Oyashio region in summer in 2010–2016. Fron- tiers in Marine Science, 7, 576240. https://doi.org/10.3389/fmars.2020.576240 Nguyen, H., Evans, A., Lucas, C., Smith, I., & Timbal, B. (2013). The Hadley circulation in reanalyses: Climatology, variability, and change. Journal of Climate, 26(10), 3357–3376. https://doi.org/10.1175/JCLI-D-12-00224.1 Acknowledgments This work was supported by the Environment Research and Technology Development Fund (JPMEERF20222002) of the Environmental Restoration and Conservation Agency Provided by the Ministry of Environment of Japan, MEXT program for the advanced studies of climate change projection (SENTAN) Grant Number JPMXD0722680395, and the Climate Change Adaptation Research Program of the NIES."
+    },
+    {
+      "page_number": 10,
+      "text": "Geophysical Research Letters HAYASHI ET AL. 10.1029/2022GL100785 10 of 10 Oliver, E. C. J. (2019). Mean warming not variability drives marine heatwave trends. Climate Dynamics, 53(3–4), 1653–1659. https://doi. org/10.1007/s00382-019-04707-2 Oliver, E. C. J., Donat, M. G., Burrows, M. T., Moore, P. J., Smale, D. A., Alexander, L. V., et al. (2018). Longer and more frequent marine heat- waves over the past century. Nature Communications, 9(1), 1324. https://doi.org/10.1038/s41467-018-03732-9 Pilo, G. S., Holbrook, N. J., Kiss, A. E., & Hogg, A. M. (2019). Sensitivity of marine heatwave metrics to ocean model resolution. Geophysical Research Letters, 46(24), 14604–14612. https://doi.org/10.1029/2019GL084928 Plecha, S. M., & Soares, P. M. M. (2020). Global marine heatwave events using the new CMIP6 multi-model ensemble: From shortcomings in present climate to future projections. Environmental Research Letters, 15(12), 124058. https://doi.org/10.1088/1748-9326/abc847 Plecha, S. M., Soares, P. M. M., Silva-Fernandes, S. M., & Cabos, W. (2021). On the uncertainty of future projections of marine heatwave events in the north Atlantic ocean. Climate Dynamics, 56(7–8), 2027–2056. https://doi.org/10.1007/s00382-020-05529-3 Qiu, Z., Qiao, F., Jang, C. J., Zhang, L., & Song, Z. (2021). Evaluation and projection of global marine heatwaves based on CMIP6 models. Deep Sea Research Part II: Topical Studies in Oceanography, 194, 104998. https://doi.org/10.1016/j.dsr2.2021.104998 Rayner, N. A., Parker, D. E., Horton, E. B., Folland, C. K., Alexander, L. V., Rowell, D. P., et al. (2003). Global analyses of sea surface temper- ature, sea ice, and night marine air temperature since the late nineteenth century. Journal of Geophysical Research, 108(D14), 4407. https:// doi.org/10.1029/2002JD002670 Saranya, J. S., Roxy, M. K., Dasgupta, P., & Anand, A. (2022). Genesis and trends in marine heatwaves over the tropical Indian Ocean and their interaction with the Indian summer monsoon. Journal of Geophysical Research: Oceans, 127(2), e2021JC017427. https://doi. org/10.1029/2021JC017427 Smith, K. E., Burrows, M. T., Hobday, A. J., Sen Gupta, A., Moore, P. J., Thomsen, M., et al. (2021). Socioeconomic impacts of marine heat- waves: Global issues and opportunities. Science, 374, 6566. https://doi.org/10.1126/science.abj3593 Song, F., Leung, L. R., Lu, J., & Dong, L. (2018). Seasonally dependent responses of subtropical highs and tropical rainfall to anthropogenic warming. Nature Climate Change, 8(9), 787–792. https://doi.org/10.1038/s41558-018-0244-4 Stott, P. A., Christidis, N., Otto, F. E. L., Sun, Y., Vanderlinden, J.-P., van Oldenborgh, G. J., et al. (2016). Attribution of extreme weather and climate-related events. Wiley Interdisciplinary Reviews: Climate Change, 7(1), 23–41. https://doi.org/10.1002/wcc.380 Stott, P., Stone, D., & Allen, M. (2004). Human contribution to the European heatwave of 2003. Nature, 432(7017), 610–614. https://doi. org/10.1038/nature03089 Toda, M., & Watanabe, M. (2020). Mechanisms of enhanced ocean surface warming in the Kuroshio region for 1951–2010. Climate Dynamics, 54(9–10), 4129–4145. https://doi.org/10.1007/s00382-020-05221-6 Wang, D., Xu, T., Fang, G., Jiang, S., Wang, G., Wei, Z., & Wang, Y. (2022). Characteristics of marine heatwaves in the Japan/East Sea. Remote Sensing, 14(4), 936. https://doi.org/10.3390/rs14040936 Xie, S. P., Lu, B., & Xiang, B. (2013). Similar spatial patterns of climate responses to aerosol and greenhouse gas changes. Nature Geoscience, 6(10), 828–832. https://doi.org/10.1038/ngeo1931 Yao, Y., Wang, J., Yin, J., & Zou, X. (2020). Marine heatwaves in China's marginal seas and adjacent offshore waters: Past, Present, and Future. Journal of Geophysical Research: Oceans, 125(3), e2019JC015801. https://doi.org/10.1029/2019JC015801 Zhang, K., Zhang, W., Wan, H., Rasch, P. J., Ghan, S. J., Easter, R. C., et al. (2022). Effective radiative forcing of anthropogenic aerosols in E3SM version 1: Historical changes, causality, decomposition, and parameterization sensitivities. Atmospheric Chemistry and Physics, 22(13), 9129–9160. https://doi.org/10.5194/acp-22-9129-2022 References From the Supporting Information de Boyer Montégut, C., Madec, G., Fischer, A. S., Lazar, A., & Iudicone, D. (2004). Mixed layer depth over the global ocean: An examination of profile data and a profile-based climatology. Journal of Geophysical Research, 109(C12), C12003. https://doi.org/10.1029/2004JC002378 Hayashi, M. (2022). A software to calculate the fraction of attributable risks for SST variability around Japan, figshare, Software. https://doi. org/10.6084/m9.figshare.20438826 Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., et al. (2019). ERA5 monthly averaged data on single levels from 1959 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS), 10, 252–266. https://doi.org/10.24381/cds.f17050d7"
+    }
+  ],
+  "paper": {
+    "authors": [
+      "Hayashi, Michiya",
+      "Shiogama H.",
+      "et al."
+    ],
+    "doi": "",
+    "local_pdf_path": "data/raw/003.pdf",
+    "pdf_url": "",
+    "source_url": "",
+    "title": "The contribution of climate change to increasing extreme ocean warming around Japan",
+    "year": 2022
+  },
+  "paper_id": "sha256:3986ac5bcbf8f124d600423a0e548a66f3caf4fb4dc732e5e610b586b5ab66c6",
+  "parser_metadata": {
+    "parsed_at": "2026-06-10T16:31:11.576743+00:00",
+    "parser_name": "PyMuPDF",
+    "parser_version": "1.27.2.3"
+  },
+  "pdf_hash": "3986ac5bcbf8f124d600423a0e548a66f3caf4fb4dc732e5e610b586b5ab66c6",
+  "pdf_number": "003",
+  "sentences": [
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s1",
+      "text": "1."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s2",
+      "text": "Introduction The global ocean has absorbed the excess heat due to human activities by more than 90% (IPCC, 2021), impact- ing the natural environment and socioeconomic system (Smith et al., 2021)."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s3",
+      "text": "The increased ocean heat results in higher chances of discrete but unprecedentedly warm sea surface temperatures (SSTs), which are often accompa- nied by marine heatwaves (Oliver, 2019)."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s4",
+      "text": "Using observational data and climate model simulations, recent studies have revealed that anthropogenic climate change has increased the severity and frequency of marine heatwaves over the past century globally (Frölicher et al., 2018; Laufkötter et al., 2020; Oliver et al., 2018; Pilo et al., 2019; Plecha & Soares, 2020) and in specific regions, such as the tropical Pacific (Holbrook et al., 2022), Northeast Pacific (Amaya et al., 2020; Barkhordarian et al., 2022), North Atlantic (Plecha et al., 2021), Indian Ocean (Saranya et al., 2022), Mediterranean Sea (Darmaraki et al., 2019), and East Asian marginal seas (Li et al., 2019; Miyama et al., 2021; Wang et al., 2022; Yao et al., 2020)."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s5",
+      "text": "Understanding the long-term change in regional SST extremes is challenging due to the limitations of climate models, such as coarse resolution (Hayashida et al., 2020; Pilo et al., 2019; Qiu et al., 2021), but critical for informing impact assessment studies and policy-makers."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s6",
+      "text": "The Japan Meteorological Agency (JMA) provides operational SST forecasts in 10 monitoring areas surrounding Japan and irregularly reports monthly SST extremes, but the influence of climate change therein has rarely been evaluated due to the lack of sufficient evidence."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s7",
+      "text": "Using multiple climate models of the Coupled Model Intercom- parison Project Phase 6 (CMIP6, Eyring et al., 2016), Hayashi et al."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s8",
+      "text": "(2021) quantified the substantial impact of anthropogenic forcing on the record high SST in August 2020 over the northwestern Pacific, including southern Japan."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s9",
+      "text": "Meanwhile, it was also demonstrated that the record high SST in July 2021 around northern Japan could Abstract Global warming is attributed to human activities that potentially cause record warm sea surface temperatures (SSTs) worldwide."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s10",
+      "text": "However, to what extent climate change has altered discrete extreme ocean warming (EOW) around Japan remains unclear."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s11",
+      "text": "Here, we show the impact of global warming on EOW events (high SSTs less frequent than once per 20 years at the preindustrial level) surrounding Japan in each calendar month for 1982–2022 using climate models."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s12",
+      "text": "In contrast to the gradually increasing occurrences of EOW events, the most frequent events occurred in approximately 1998 and the mid-2010s, especially in southern Japan."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s13",
+      "text": "We found climate change was not yet dominant in the 1998 events but has multiplied the occurrence probability of most events by at least twice since 2000."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s14",
+      "text": "Furthermore, we estimated that the possibility of the future normal climate exceeding record high SSTs can be sharply reduced by limiting global warming from 2°C to 1.5°C."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s15",
+      "text": "Plain Language Summary Human activities have warmed the Earth's surface since industrialization, so we have often experienced unprecedentedly high sea surface temperatures (SSTs) worldwide."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s16",
+      "text": "However, it is still challenging to quantitatively understand how much long-term climate change has affected the probability of discrete extreme ocean warming occurrences in specific regions."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s17",
+      "text": "In this study, we used multiple observational datasets and climate model simulations to identify monthly extreme sea surface warming events that occur around Japan less frequently than once every 20 years under preindustrial climate conditions."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s18",
+      "text": "Extreme warming events gradually become more frequent as global warming progresses, but a large number of these events episodically emerged in approximately 1998 and the mid-2010s."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s19",
+      "text": "This is more evident on the southern side than on the northern side of Japan."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s20",
+      "text": "This study revealed that natural variability mainly caused extreme warming events in 1998, but climate change has been the dominant factor driving extreme warming events since 2000."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s21",
+      "text": "We also estimated the future change in the chances of experiencing SSTs warmer than the highest records."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s22",
+      "text": "Our results pointed out that the ocean surface surrounding Japan would exceed the present record high temperatures every 2 years unless global warming could be suppressed from 2°C to 1.5°C."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s23",
+      "text": "HAYASHI ET AL. © 2022."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s24",
+      "text": "The Authors."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s25",
+      "text": "This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s26",
+      "text": "The Contribution of Climate Change to Increasing Extreme Ocean Warming Around Japan M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s27",
+      "text": "Hayashi1 , H."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s28",
+      "text": "Shiogama1 , and T."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s29",
+      "text": "Ogura1 1Earth System Division, National Institute for Environmental Studies, Tsukuba, Japan Key Points: • \u0007The contribution of climate change to discrete extreme ocean warming (EOW) from January 1982 through July 2022 around Japan is estimated • \u0007The occurrence chance of EOW is generally higher in southern Japan, more than doubled since 2000 due to climate change • \u0007Limiting global warming from 2°C to 1.5°C sharply reduces the possibility of normal climate exceeding record warm ocean surface Supporting Information: Supporting Information may be found in the online version of this article."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s30",
+      "text": "Correspondence to: M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s31",
+      "text": "Hayashi, hayashi.michiya@nies.go.jp Citation: Hayashi, M., Shiogama, H., & Ogura, T."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s32",
+      "text": "(2022)."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s33",
+      "text": "The contribution of climate change to increasing extreme ocean warming around Japan."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s34",
+      "text": "Geophysical Research Letters, 49, e2022GL100785. https://doi.org/10.1029/2022GL100785 Received 11 AUG 2022 Accepted 8 SEP 2022 Author Contributions: Conceptualization: M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s35",
+      "text": "Hayashi, H."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s36",
+      "text": "Shiogama, T."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s37",
+      "text": "Ogura Data curation: M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s38",
+      "text": "Hayashi Formal analysis: M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s39",
+      "text": "Hayashi Funding acquisition: H."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s40",
+      "text": "Shiogama, T."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s41",
+      "text": "Ogura Investigation: M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s42",
+      "text": "Hayashi Methodology: M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s43",
+      "text": "Hayashi, H."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s44",
+      "text": "Shiogama, T."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s45",
+      "text": "Ogura Project Administration: H."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s46",
+      "text": "Shiogama, T."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s47",
+      "text": "Ogura Resources: M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s48",
+      "text": "Hayashi Software: M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s49",
+      "text": "Hayashi Supervision: H."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s50",
+      "text": "Shiogama, T."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s51",
+      "text": "Ogura Validation: M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s52",
+      "text": "Hayashi Visualization: M."
+    },
+    {
+      "page_number": 1,
+      "sentence_id": "p1-s53",
+      "text": "Hayashi 10.1029/2022GL100785 RESEARCH LETTER 1 of 10"
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s1",
+      "text": "Geophysical Research Letters HAYASHI ET AL."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s2",
+      "text": "10.1029/2022GL100785 2 of 10 be driven mainly by atmospheric natural variability (Kuroda & Setou, 2021), although the contribution of global warming remains in question."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s3",
+      "text": "A comprehensive analysis of long-term data in different areas and seasons around Japan is needed to reveal how much climate change has altered the occurrence frequency of regional discrete sea surface warming."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s4",
+      "text": "This study investigates monthly extreme ocean warming (EOW) events around Japan in each calendar month by focusing on the 10 operational monitoring areas defined by the JMA."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s5",
+      "text": "We first evaluate the consistency of the CMIP6 model ensemble with the observed trends of regional SSTs for 1982–2021."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s6",
+      "text": "Then, EOW events are identi- fied from an observational SST data set from January 1982 through July 2022, and the impacts of anthropogenic climate change on these events are quantified."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s7",
+      "text": "We also quantify the probability changes of exceeding the observed highest SSTs in the past 40 years at different global warming levels from 0°C to 2°C."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s8",
+      "text": "2."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s9",
+      "text": "Data The main observational SST analysis data are Centennial in situ Observation-Based Estimates of the Variability of SST and Marine Meteorological Variables version 2 from January 1982 through July 2022 (COBE2, Hirahara et al., 2014)."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s10",
+      "text": "Note that COBE2 in July 2022 is yet preliminary."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s11",
+      "text": "We also use three SST reanalysis datasets: the National Oceanic and Atmospheric Administration 0.25-degree Daily Optimum Interpolation SST version 2.1 for 1982–2021 (OISST, Banzon et al., 2020), Hadley Centre Sea Ice and SST version 1.1 for 1870–2021 (HadISST, Rayner et al., 2003), and Extended Reconstructed SST version 5 for 1854–2021 (ERSST5, Huang et al., 2017)."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s12",
+      "text": "This study focuses on the 40-year period of 1982–2021 when these annual datasets are all available."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s13",
+      "text": "The CMIP6 climate models listed in Table S1 of Supporting Information S1 provide the historical and SSP2-4.5 (a middle-of-the-road scenario in shared socioeconomic pathways) simulations for 1850–2100 and the preindus- trial control simulations for 200 years."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s14",
+      "text": "Hereafter, the CMIP6 ensemble consists of 24 models that have equilib- rium climate sensitivity (Gregory et al., 2004) within its very likely range of IPCC (2021), that is, 2°C–5°C."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s15",
+      "text": "In each model, the monthly climatological SST bias relative to COBE2 for the base period 1951–2000 is removed at each remapped 1° grid (Diffenbaugh & Scherer, 2013; Krinner et al., 2008)."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s16",
+      "text": "Then, all the monthly SST datasets are averaged in 10 monitoring areas (Figure 1a), which are operationally used by the JMA (https://www.data. jma.go.jp/gmd/kaiyou/data/db/kaikyo/ocean/forecast/month.html, accessed 2 August 2022)."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s17",
+      "text": "The observational time series and the CMIP6 probability ranges are provided in Figure S1 of Supporting Information S1."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s18",
+      "text": "We also analyze the global warming level (GWL), defined as the global mean annual near-surface air temperature relative to 1850–1900, in each model for 1901–2100."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s19",
+      "text": "3."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s20",
+      "text": "Results 3.1."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s21",
+      "text": "Observed and Simulated SST Warming The annual SST warming for 1982–2021 in the northwestern Pacific is compared between COBE2 and the CMIP6 ensemble (Figures 1a and 1b; Figure S2 in Supporting Information S1 for each data set)."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s22",
+      "text": "The observed warming trend on the northern side of Japan, estimated by ordinary least squares fitting, is higher than that on the southern side."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s23",
+      "text": "The CMIP6 ensemble mean reproduces the overall warming amplitude and the south-north contrast."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s24",
+      "text": "Figure 1c provides a quantitative comparison of the SST trend in the 10 monitoring areas."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s25",
+      "text": "The trends in the three reanalysis datasets (ERSST5, HadISST, and OISST) are within the 95% confidence intervals of COBE2 in all areas."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s26",
+      "text": "The results from the CMIP6 ensemble (box-and-whisker plots) show high uncertainty in the north- ern areas (JP01–JP04)."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s27",
+      "text": "Nevertheless, the 95% confidence intervals in the CMIP6 ensemble means capture the confidence intervals of trends in COBE2 well, except for JP02, where the simulated warming is too high, so few models reproduce the observed trend."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s28",
+      "text": "Therefore, the CMIP6 ensemble simulates past 40-year SST trends consist- ent with observed levels in nine monitoring areas (JP01, JP03–JP10)."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s29",
+      "text": "Hereafter, JP02 is omitted."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s30",
+      "text": "The simulated warming trend reaches its peak during summer-autumn (June–November) regardless of area (Figure 2a), which is consistent with the reanalysis average (Figure S3 in Supporting Information S1) and in common over Northern Hemisphere (Figure S4 in Supporting Information S1)."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s31",
+      "text": "On the Pacific side of Japan (JP04 and JP06–JP10), such seasonality is also apparent in the ensemble mean SST anomalies for 2017–2021 relative to the preindustrial ensemble mean (Figure 2b and Figures S5a–S5d in Supporting Information S1)."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s32",
+      "text": "In the Japan Sea (JP01 and JP03) and East China Sea (JP05), however, peaks in the SST anomalies are shifted to autumn-winter (September-February) so that the south-north warming contrast around Japan diminishes during Writing – original draft: M."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s33",
+      "text": "Hayashi Writing – review & editing: M."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s34",
+      "text": "Hayashi, H."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s35",
+      "text": "Shiogama, T."
+    },
+    {
+      "page_number": 2,
+      "sentence_id": "p2-s36",
+      "text": "Ogura"
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s1",
+      "text": "Geophysical Research Letters HAYASHI ET AL."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s2",
+      "text": "10.1029/2022GL100785 3 of 10 summer."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s3",
+      "text": "In contrast, the SST anomalies for 1982–1986 are negative in the North Pacific (Figure S5e–S5h in Supporting Information S1), which are significant over the northern areas (JP01–JP04) and JP05 especially in summer (Figure 2c)."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s4",
+      "text": "The seasonally enhanced warming anomalies during June–November in 2017–2021 are characterized by inter- hemispheric asymmetry (Figure S5d in Supporting Information S1)."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s5",
+      "text": "It is known that the interhemispheric annual mean SST asymmetry has increased since the 1980s in response to anthropogenic greenhouse gases due to, for example, larger landmass extent in Northern Hemisphere (Friedman et al., 2020)."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s6",
+      "text": "In addition, according to Song et al."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s7",
+      "text": "(2018), the cross-equatorial atmospheric energy transport is enhanced southward during the boreal late summer and autumn in a warming climate through the constraint of the Clausius-Clapeyron relation, shifting the Hadley circulation and tropical rain belt northward further in Northern Hemisphere."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s8",
+      "text": "Such seasonal differences in the tropical widening under global warming (see also, Davis & Rosenlof, 2012; Nguyen et al., 2013) can contrib- ute to the interhemispheric warming asymmetry by changing the ocean heat transport and surface heat flux, and thus enhance the SST warming around Japan during summer-autumn (Figure 2b)."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s9",
+      "text": "The negative SST anomalies in 1982–1986 that extend to the North Pacific (Figure 2c and Figures S5e–S5h in Supporting Information S1) can be interpreted as response to anthropogenic aerosol emission changes."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s10",
+      "text": "Prior to the 1980s, increasing global sulfate emissions reduce SSTs in the North Pacific, especially to the north of Japan, via large-scale circulation changes (Diao et al., 2021; Toda & Watanabe, 2020; Xie et al., 2013)."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s11",
+      "text": "According to Zhang et al."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s12",
+      "text": "(2022), the northern mid-latitude cooling dominates in boreal summer because the shortwave cooling overwhelms the longwave warming in response to aerosol."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s13",
+      "text": "The continuous reduction of aerosol emissions from Figure 1."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s14",
+      "text": "Observed and simulated sea surface temperature (SST) warming for 1982–2021 (°C per 40 years)."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s15",
+      "text": "Horizontal patterns of the annual mean SST trends in (a) COBE2 and (b) the Coupled Model Intercomparison Project Phase 6 (CMIP6) ensemble."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s16",
+      "text": "(c) Regional trends in 10 monitoring areas: the CMIP6 ensemble mean (black circles with error bars for the 95% confidence intervals of ensemble mean, based on a t test), COBE2 (red circles with error bars for the 95% confidence intervals of trend), Extended Reconstructed SST version 5 (ERSST5) (cyan stars), Hadley Centre Sea Ice and SST version 1.1 (HadISST) (blue stars), and Optimum Interpolation SST version 2.1 (OISST) (green stars)."
+    },
+    {
+      "page_number": 3,
+      "sentence_id": "p3-s17",
+      "text": "Box-and-whisker plots indicate the median, interquartile range, 5th–95th percentile range, and outliers of the regional trends in the CMIP6 ensemble."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s1",
+      "text": "Geophysical Research Letters HAYASHI ET AL."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s2",
+      "text": "10.1029/2022GL100785 4 of 10 Western Hemisphere since the 1980s have reduced the cooling effect (Diao et al., 2021) and results in the higher summer warming trends over the North Pacific, causing the apparent south-north contrast of warming trends around Japan (Figure 2a)."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s3",
+      "text": "Note that anthropogenic aerosol emissions remain substantial even in the 21st century compared to preindustrial era (e.g., Diao et al., 2021), and thus, still contribute to reducing the positive SST anomalies in 2017–2021 at JP01–JP05 especially during summer (Figure 2b), delaying the warming anomaly peaks to autumn-winter."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s4",
+      "text": "The signal-to-noise (SN) ratio during 1982–2021 is defined as 휎2 푆∕ ( 휎2 푆+ 휎2 푁 ) (Figure 2d)."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s5",
+      "text": "Here, the signal σS is the root-mean-squared ensemble mean anomaly for 1982–2021, which resembles the warming anomalies in 2017–2021 (Figure 2b) rather than the 40-year warming trend (Figure 2a)."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s6",
+      "text": "Its seasonal differences among the nine monitoring areas can be interpreted as discussed above."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s7",
+      "text": "The noise σN is the standard deviation of the 200-year preindustrial simulations that is basically high in boreal summer (June–August), more considerably in the northern areas (Figure 2f)."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s8",
+      "text": "These features in σN are reproduced by the reanalysis datasets and by the historical and SSP2-4.5 simulations well (Figures S3d–S3f and S6 in Supporting Information S1), indicating that the inter- nal variability is not sensitive to data and climate change."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s9",
+      "text": "We confirmed that the seasonality in maxima of σN can be thermodynamically explained by the higher standard deviation of the net surface heat flux and the shallower mean state mixed-layer depth (Figure S7 in Supporting Information S1), except for JP04 and JP05 where ocean dynamics may further increase σN in boreal spring."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s10",
+      "text": "The seasonal and regional dependences in the signal and noise determine the SN ratio as follows (Figure 2d)."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s11",
+      "text": "A large SN ratio exceeding 0.5 (i.e., σS > σN) appears in the southern areas (JP06–JP10) during June-December because of high σS and low σN."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s12",
+      "text": "The SN ratio minima appear earlier in JP08–JP10 than in JP06-JP07 due to seasonally high σN."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s13",
+      "text": "In the Japan Sea (JP01 and JP03), the SN ratio is minimal in summer (June–August), as σN is the highest."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s14",
+      "text": "The seasonal maxima of the SN ratio in JP04 and JP05 appear during autumn (September– November) when σS is high and σN is low."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s15",
+      "text": "These results are robust even when a late period, such as a 30-year period of 1992–2021, was selected except that σS and the SN ratio are enhanced overall (Figure S8 in Supporting Information S1)."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s16",
+      "text": "Figure 2."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s17",
+      "text": "Simulated warming and signal-to-noise (SN) ratio for 1982–2021."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s18",
+      "text": "(a) The Coupled Model Intercomparison Project Phase 6 (CMIP6) ensemble mean of sea surface temperature (SST) trends (°C per 40 years)."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s19",
+      "text": "(b, c) The ensemble mean SST anomalies for 2017–2021 and 1982–1986 (°C) relative to the preindustrial ensemble mean."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s20",
+      "text": "The 95% significance values, based on a t test, are stippled."
+    },
+    {
+      "page_number": 4,
+      "sentence_id": "p4-s21",
+      "text": "(d, e, f) The SN ratio [𝐴𝐴2 𝑆𝑆∕(𝜎𝜎2 𝑆𝑆+ 𝜎𝜎2 𝑁𝑁 ) ; above 0.5 is hachured], the standard deviations of signal (σS; °C), and the standard deviations of noise (σN; °C)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s1",
+      "text": "Geophysical Research Letters HAYASHI ET AL."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s2",
+      "text": "10.1029/2022GL100785 5 of 10 3.2."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s3",
+      "text": "Extreme Events and Climate Change EOW events are defined as follows."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s4",
+      "text": "The probability density function of SST under the preindustrial condition for 200 years, pdf(SST), is calculated using the Epanechnikov kernel function (Kimoto & Ghil, 1993)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s5",
+      "text": "The pdf(SST) is bootstrapped 1,000 times to derive the median and 95% confidence interval (2.5th–97.5th percen- tiles) of the exceedance distribution function, 1 −∫ SST −∞pdf(𝑧𝑧)𝑑𝑑𝑑𝑑 , yielding the preindustrial probability of exceed- ing an observed SST of COBE2 (Probpreindustrial)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s6",
+      "text": "The observed SST having the Probpreindustrial median equal to or less than 0.05 per year (return period of 20 years or longer) is identified as an EOW event (Figure 3)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s7",
+      "text": "See Data Set S1 for the detailed values."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s8",
+      "text": "As the SST gradually becomes warmer with time, the number of EOW events increases (stippled or hatched)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s9",
+      "text": "The bar plots in Figure 3 quantify the annual total months of events."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s10",
+      "text": "The frequent EOW occurrences emerge in approximately 1998 and after the mid-2010s."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s11",
+      "text": "During these periods, even 1-in-100- year events are observed successively in the southern areas (JP06–JP10)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s12",
+      "text": "In contrast, the occurrence numbers are relatively low in the northern areas (JP01–JP04) and JP05 but gradually increase after 2010, except in JP04."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s13",
+      "text": "The south-north contrast of event occurrences results from the regional difference in noise (Figure 2f)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s14",
+      "text": "Importantly, all areas have experienced 1-in-100-year events in more than two months since 2010, indicating the increased frequency of EOW occurrences in the present climate than in the 20th century or before."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s15",
+      "text": "The contribution of climate change to the observed SST variability since 1982 is estimated by the fraction of attributable risk (FAR) for the regional monthly SST of COBE2."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s16",
+      "text": "Here, the FAR is defined as 1–Probpreindustrial/ Probpresent (Laufkötter et al., 2020; Stott et al., 2004, 2016), where Probpresent is the probability of exceeding an observed SST in the 5-year running periods during 1982–2022 (hereafter termed “present” conditions: e.g., 5-year simulations for 1980–1984 are used for determining Probpresent in 1982)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s17",
+      "text": "FAR equal to 0.5 or 0.9 corre- sponds to the probability doubled or increased tenfold from the preindustrial to present conditions."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s18",
+      "text": "We test FAR if it exceeds a specific level at the 95% statistical confidence by calculating a conservative FAR, which is derived from the 97.5th percentile of Probpreindustrial and the 2.5th percentile of Probpresent based on 1,000 times bootstrapping."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s19",
+      "text": "In Figure 3, the FAR values significantly greater than 0.5 (hachured or stippled) begin to emerge in the 2000s, but the time of emergence shows seasonal dependences in each area."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s20",
+      "text": "In the Japan Sea (JP01 and JP03), the FAR is low from late spring to early autumn (May–September) until approximately 2010."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s21",
+      "text": "The FAR is also low in JP04 and JP05 during most seasons except for autumn (September–November)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s22",
+      "text": "The southern areas (JP06–JP10) show relatively high FAR values, especially since the mid-2010s, except for early summer (May–July) in JP06 and JP07, late spring (April–June) in JP09, and spring (March–May) in JP10."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s23",
+      "text": "These seasonal features of the FAR are consistent with the SN ratio (Figure 2d)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s24",
+      "text": "Despite such seasonality, the FAR began to successively exceed 0.5 in all the monitoring areas by the mid-2010s."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s25",
+      "text": "Whether the EOW events result from climate change is assessed."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s26",
+      "text": "The bar plots in Figure 3 are the annual total months of events as in Figure 3 but are filled with colors in case the FAR significantly exceeds the threshold of 0.5 (orange) or 0.9 (dark red)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s27",
+      "text": "An EOW event accompanied by a FAR exceeding 0.5 significantly indicates that climate change is the major factor for its occurrence."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s28",
+      "text": "Most of the EOW events before 2000 are not attributable to climate change, even in 1998, when many events were identified in all areas."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s29",
+      "text": "The frequent EOW events in 1998 potentially result from the transition from a strong El Niño to La Niña, as mentioned in previous studies (Lee et al., 2020, 2022; Yao et al., 2020)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s30",
+      "text": "In contrast, the majority of events are accompanied by FAR values exceeding 0.5 after 2000."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s31",
+      "text": "The annual total number of events has rapidly increased since the mid-2010s, and all these events are attributed to climate change, except for a few cases at JP01 and JP03 in July 2021 and at JP01 and JP05 in August 2016."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s32",
+      "text": "The relative number of times that the FAR has exceeded 0.9 (dark red) has increased since the mid-2010s in the southern areas (JP06–JP10)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s33",
+      "text": "In July 2022, for instance, the FAR for EOW events significantly exceeds 0.9 at JP08 and JP10 while 0.5 at JP01, JP03, and JP05 (Figure 3 and Figure S9 in Supporting Informa- tion S1)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s34",
+      "text": "These results imply that climate change has already become the major factor for most of the record high SST in recent years around Japan."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s35",
+      "text": "3.3."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s36",
+      "text": "Probability Changes of Exceeding the Past Highest SSTs When will the normal climate reach record high SSTs and beyond?"
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s37",
+      "text": "Because of uncertainty among the four reanal- ysis datasets, the maximum SSTs in each calendar month during 1982–2021 span from the lower (Figure 4a) to upper bounds (Figure 4b)."
+    },
+    {
+      "page_number": 5,
+      "sentence_id": "p5-s38",
+      "text": "We selected years of the CMIP6 simulations realizing monthly SSTs for 1901–2100"
+    },
+    {
+      "page_number": 6,
+      "sentence_id": "p6-s1",
+      "text": "Geophysical Research Letters HAYASHI ET AL."
+    },
+    {
+      "page_number": 6,
+      "sentence_id": "p6-s2",
+      "text": "10.1029/2022GL100785 6 of 10 Figure 3."
+    },
+    {
+      "page_number": 6,
+      "sentence_id": "p6-s3",
+      "text": "Monthly sea surface temperature (SST) anomalies, extreme ocean warming events, and the contribution of climate change to the SST variability in each monitoring area for 1982–2022."
+    },
+    {
+      "page_number": 6,
+      "sentence_id": "p6-s4",
+      "text": "(a–i) The upper panels indicate the SST anomalies of COBE2 relative to 1991–2020 and the identified events less frequent than 1-in- 100 years are hatched or otherwise stippled."
+    },
+    {
+      "page_number": 6,
+      "sentence_id": "p6-s5",
+      "text": "The lower panels indicate the fraction of attributable risk (FAR), hachured or stippled when it significantly exceeds 0.5 or 0.9."
+    },
+    {
+      "page_number": 6,
+      "sentence_id": "p6-s6",
+      "text": "Bar plots in the middle panels show the annual total months of the events, filled with orange and dark red colors for FAR exceeding 0.5 and 0.9 significantly, and those of 1-in-100 years or less frequent events are overlayed with lines."
+    },
+    {
+      "page_number": 6,
+      "sentence_id": "p6-s7",
+      "text": "Undefined values are filled with black."
+    },
+    {
+      "page_number": 6,
+      "sentence_id": "p6-s8",
+      "text": "(j) Nine monitoring areas."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s1",
+      "text": "Geophysical Research Letters HAYASHI ET AL."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s2",
+      "text": "10.1029/2022GL100785 7 of 10 within these SST ranges to calculate the probability density function of GWLs, pdf(GWL) (cf."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s3",
+      "text": "Figure 4 of Hayashi et al., 2021)."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s4",
+      "text": "The width of each pdf(GWL) represents the intermodel uncertainty as well as internal variability at the interannual or longer timescales."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s5",
+      "text": "The inverse of the corresponding cumulative distribution func- tion, 1∕∫ GWL –∞pdf(𝑧𝑧)𝑑𝑑𝑑𝑑 , yields the return period of the past maximum SSTs at specific GWLs from 0°C to 2°C."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s6",
+      "text": "In Figures 4c–4f, the return period significantly shorter than 2 years at the 95% confidence level is highlighted with stipples, indicating normal climate conditions beyond the past maximum SSTs."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s7",
+      "text": "While the return period is Figure 4."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s8",
+      "text": "Global warming and record high sea surface temperatures (SSTs)."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s9",
+      "text": "(a, b) The lower and upper bounds of the maximum SSTs during 1982–2021 in the four reanalysis datasets."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s10",
+      "text": "(c–f) Return periods of the SST between the maximum SST ranges at GWLs of 0, 1.1, 1.5, and 2°C."
+    },
+    {
+      "page_number": 7,
+      "sentence_id": "p7-s11",
+      "text": "Stippling indicates that the return period is significantly less than 2 years at the 95% confidence level based on 1,000 bootstrap replicates."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s1",
+      "text": "Geophysical Research Letters HAYASHI ET AL."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s2",
+      "text": "10.1029/2022GL100785 8 of 10 in most cases on the order of 10–100 years or longer at the 0°C GWL (Figure 4c), it tends to reach 10 years or shorter at the 1.1°C GWL (Figure 4d), which approximates the present-day level."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s3",
+      "text": "When the GWL is 1.5°C, the return period is significantly reduced further but not yet below 2 years, except for a few cases (Figure 4e)."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s4",
+      "text": "In contrast, at the 2°C GWL (Figure 4f), the return period is projected to reach 2 years in all the regions in at least one of the calendar months."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s5",
+      "text": "The results indicate that limiting global warming to 1.5°C is efficient for reducing the chances of experiencing the new normal climate equivalent to or warmer than the observed record high SSTs around Japan."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s6",
+      "text": "4."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s7",
+      "text": "Conclusions and Discussion This study revealed the long-term probability change in monthly EOW events in 10 monitoring areas around Japan (JP01–JP10) from January 1982 through July 2022 and the influence of global warming therein using four SST reanalysis and 24 CMIP6 climate models."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s8",
+      "text": "Since the CMIP6 ensemble reproduced the observed SST trends except in one of the 10 monitoring areas, JP02, nine monitoring areas were analyzed (Figure 1)."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s9",
+      "text": "The signal-to-noise ratio between the ensemble mean anomalies in 1982–2021 and the preindustrial noise indicates the south-north contrast and seasonal dependence of the emergence of climate change impacts on SST around Japan that can be interpreted by thermodynamic analysis and previous studies (Figure 2)."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s10",
+      "text": "For each area and calendar month, EOW events were identified in case the occurrence probability of exceeding the observed SST level was once per 20 years or less in the preindustrial simulations."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s11",
+      "text": "As a result, the number of EOW events gradually increased between 1982 and 2022, with episodically frequent EOW events in approximately 1998 and after the mid-2010s (Figure 3)."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s12",
+      "text": "Based on the FAR, we found that the impact of climate change was minor for the EOW events in approximately 1998, but the occurrence probability was at least doubled due to climate change for most events that occurred after 2000."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s13",
+      "text": "EOW events were more frequently observed in the southern areas (JP06–JP10), some of whose occurrence prob- ability increased tenfold or more since the mid-2010s."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s14",
+      "text": "Therefore, in the present climate, extreme SST warming around Japan is mostly attributable to climate change."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s15",
+      "text": "The CMIP6 ensemble also indicates that the normal climate condition becomes equivalent to or warmer than the observed record high SSTs once global warming relative to 1850–1900 reaches 2°C (Figure 4)."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s16",
+      "text": "Limiting global warming below 1.5°C, which requires a rapid acceleration of mitigation efforts (IPCC, 2022), will efficiently reduce the possibility of experiencing such a new normal climate."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s17",
+      "text": "Methods to estimate Probpreindustrial and Probpresent may affect EOW events and the FAR."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s18",
+      "text": "First, as the model bias correction is based on the period 1951–2000, the SST mean states in the preindustrial simulations have inter- model spread due to uncertainty of the forced response, overestimating the preindustrial SST standard deviation (σN) more than the internal noise by up to approximately 20%, especially in the northern areas (JP01-JP05) from boreal summer to autumn (Figure S4 in Supporting Information S1)."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s19",
+      "text": "The potential influence of this issue on Probpreindustrial is evaluated by fixing the mean state of each model with the preindustrial ensemble mean (Figure S10 in Supporting Information S1), showing that the event occurrence number and the FAR are overall higher than those in Figure 3."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s20",
+      "text": "Such uncertainty may be reduced by further analyzing large ensembles of multiple climate models, if available, to determine the exact internal noise."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s21",
+      "text": "Second, constraining the CMIP6 ensemble by climate sensitivity may also impact Probpresent."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s22",
+      "text": "We have tested whether the results in Figure 3 are changed when all models listed in Table S1 in Supporting Information S1 are used regardless of their climate sensitivity (Figure S11 in Supporting Information S1)."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s23",
+      "text": "The FAR tends to be higher when the CMIP6 ensemble consists of 30 models, including 4 models that have climate sensitivities of 5.2–5.6°C."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s24",
+      "text": "These two supplementary analyses indicate that our results in Figure 3 are conservative estimates but yield the same conclusions."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s25",
+      "text": "The present results are based on a probabilistic approach, but it is also important to understand the dynamics of each EOW event or related marine heatwave and its long-term changes due to global warming in atmosphere-ocean coupled systems."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s26",
+      "text": "For a dynamic approach, increasing the coupled model resolution is required to better reproduce the ocean temperature and currents that have fine structures such as the Kuroshio-Oyashio extension (Hayashida et al., 2020; Kohyama et al., 2021)."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s27",
+      "text": "Combining these approaches will further quantify the past and future changes in regional SST extremes."
+    },
+    {
+      "page_number": 8,
+      "sentence_id": "p8-s28",
+      "text": "Data Availability Statement The CMIP6 data set is available at https://esgf-node.llnl.gov/projects/cmip6/, COBE2 at https://climate.mri-jma. go.jp/pub/ocean/cobe-sst2/ and also at NEAR-GOOS RRTDB https://ds.data.jma.go.jp/gmd/goos/data/pub/ JMA-product/cobe2_sst_glb_M/, HadISST at https://www.metoffice.gov.uk/hadobs/hadisst/data/download.html, ERSST5 at https://www1.ncdc.noaa.gov/pub/data/cmb/ersst/v5/netcdf/, and OISST at https://www.ncei.noaa."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s1",
+      "text": "Geophysical Research Letters HAYASHI ET AL."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s2",
+      "text": "10.1029/2022GL100785 9 of 10 gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s3",
+      "text": "A python software for identifying EOW events and calculating FAR is available at https://doi.org/10.6084/m9.figshare.20438826."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s4",
+      "text": "References Amaya, D."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s5",
+      "text": "J., Miller, A."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s6",
+      "text": "J., Xie, S.-P., & Kosaka, Y."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s7",
+      "text": "(2020)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s8",
+      "text": "Physical drivers of the summer 2019 North Pacific marine heatwave."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s9",
+      "text": "Nature Commu- nications, 11(1), 1903. https://doi.org/10.1038/s41467-020-15820-w Banzon, V., Smith, T."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s10",
+      "text": "M., Steele, M., Huang, B., & Zhang, H.-M."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s11",
+      "text": "(2020)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s12",
+      "text": "Improved estimation of proxy sea surface temperature in the Arctic."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s13",
+      "text": "Journal of Atmospheric and Oceanic Technology, 37(2), 341–349. https://doi.org/10.1175/JTECH-D-19-0177.1 Barkhordarian, A., Nielsen, D."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s14",
+      "text": "M., & Baehr, J."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s15",
+      "text": "(2022)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s16",
+      "text": "Recent marine heatwaves in the North Pacific warming pool can be attributed to rising atmospheric levels of greenhouse gases."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s17",
+      "text": "Communications Earth & Environment, 3(1), 131. https://doi.org/10.1038/s43247-022-00461-2 Darmaraki, S., Somot, S., Sevault, F., Nabat, P., Narvaez, W."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s18",
+      "text": "D."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s19",
+      "text": "C., Cavicchia, L., et al."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s20",
+      "text": "(2019)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s21",
+      "text": "Future evolution of marine heatwaves in the Mediterranean Sea."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s22",
+      "text": "Climate Dynamics, 53(3–4), 1371–1392. https://doi.org/10.1007/s00382-019-04661-z Davis, S."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s23",
+      "text": "M., & Rosenlof, K."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s24",
+      "text": "H."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s25",
+      "text": "(2012)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s26",
+      "text": "A multidiagnostic intercomparison of tropical-width time series using reanalyses and satellite observa- tions."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s27",
+      "text": "Journal of Climate, 25(4), 1061–1078. https://doi.org/10.1175/JCLI-D-11-00127.1 Diao, C., Xu, Y., & Xie, S.-P."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s28",
+      "text": "(2021)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s29",
+      "text": "Anthropogenic aerosol effects on tropospheric circulation and sea surface temperature (1980–2020): Separating the role of zonally asymmetric forcings."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s30",
+      "text": "Atmospheric Chemistry and Physics, 21(24), 18499–18518. https://doi.org/10.5194/ acp-21-18499-2021 Diffenbaugh, N."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s31",
+      "text": "S., & Scherer, M."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s32",
+      "text": "(2013)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s33",
+      "text": "Likelihood of July 2012 US temperatures in preindustrial and current forcing regimes [in “explaining extreme events of 2012 from a climate perspective”]."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s34",
+      "text": "Bulletin of the America Meteorological Society, 94, S6–S9. https://doi.org/10.1175/ BAMS-D-13-00085.1 Eyring, V., Bony, S., Meehl, G."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s35",
+      "text": "A., Senior, C."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s36",
+      "text": "A., Stevens, B., Stouffer, R."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s37",
+      "text": "J., & Taylor, K."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s38",
+      "text": "E."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s39",
+      "text": "(2016)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s40",
+      "text": "Overview of the coupled model intercom- parison Project Phase 6 (CMIP6) experimental design and organization."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s41",
+      "text": "Geoscientific Model Development, 9(5), 1937–1958. https://doi. org/10.5194/gmd-9-1937-2016 Friedman, A."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s42",
+      "text": "R., Hegerl, G."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s43",
+      "text": "C., Schurer, A."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s44",
+      "text": "P., Lee, S., Kong, W., Cheng, W., & Chiang, J."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s45",
+      "text": "C."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s46",
+      "text": "H."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s47",
+      "text": "(2020)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s48",
+      "text": "Forced and unforced decadal behavior of the interhemispheric SST contrast during the instrumental period (1881–2012): Contextualizing the late 1960s–early 1970s shift."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s49",
+      "text": "Journal of Climate, 33(9), 3487–3509. https://doi.org/10.1175/JCLI-D-19-0102.1 Frölicher, T."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s50",
+      "text": "L., Fischer, E."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s51",
+      "text": "M., & Gruber, N."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s52",
+      "text": "(2018)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s53",
+      "text": "Marine heatwaves under global warming."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s54",
+      "text": "Nature, 560(7718), 360–364. https://doi. org/10.1038/s41586-018-0383-9 Gregory, J."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s55",
+      "text": "M., Ingram, W."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s56",
+      "text": "J., Palmer, M."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s57",
+      "text": "A., Jones, G."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s58",
+      "text": "S., Stott, P."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s59",
+      "text": "A., Thorpe, R."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s60",
+      "text": "B., et al."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s61",
+      "text": "(2004)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s62",
+      "text": "A new method for diagnosing radiative forcing and climate sensitivity."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s63",
+      "text": "Geophysical Research Letters, 31(3), L03205. https://doi.org/10.1029/2003gl018747 Hayashi, M., Shiogama, H., Emori, S., Ogura, T., & Hirota, N."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s64",
+      "text": "(2021)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s65",
+      "text": "The northwestern Pacific warming record in August 2020 occurred under anthropogenic forcing."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s66",
+      "text": "Geophysical Research Letters, 48(1), e2020GL090956. https://doi.org/10.1029/2020GL090956 Hayashida, H., Matear, R."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s67",
+      "text": "J., Strutton, P."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s68",
+      "text": "G., & Zhang, X."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s69",
+      "text": "(2020)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s70",
+      "text": "Insights into projected changes in marine heatwaves from a high-resolution ocean circulation model."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s71",
+      "text": "Nature Communications, 11(1), 4352. https://doi.org/10.1038/s41467-020-18241-x Hirahara, S., Ishii, M., & Fukuda, Y."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s72",
+      "text": "(2014)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s73",
+      "text": "Centennial-scale sea surface temperature analysis and its uncertainty."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s74",
+      "text": "Journal of Climate, 27(1), 57–75. https://doi.org/10.1175/JCLI-D-12-00837.1 Holbrook, N."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s75",
+      "text": "J., Hernaman, V., Koshiba, S., Lako, J., Kajtar, J."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s76",
+      "text": "B., Amosa, P., & Singh, A."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s77",
+      "text": "(2022)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s78",
+      "text": "Impacts of marine heatwaves on tropical western and central Pacific Island nations and their communities."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s79",
+      "text": "Global and Planetary Change, 208, 103680. https://doi.org/10.1016/j. gloplacha.2021.103680 Huang, B., Thorne, P."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s80",
+      "text": "W., Banzon, V."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s81",
+      "text": "F., Boyer, T., Chepurin, G., Lawrimore, J."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s82",
+      "text": "H., et al."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s83",
+      "text": "(2017)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s84",
+      "text": "Extended reconstructed sea surface temper- ature, version 5 (ERSSTv5): Upgrades, validations, and intercomparisons."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s85",
+      "text": "Journal of Climate, 30(20), 8179–8205. https://doi.org/10.1175/ JCLI-D-16-0836.1 IPCC."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s86",
+      "text": "(2021)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s87",
+      "text": "Summary for policymakers."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s88",
+      "text": "In V."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s89",
+      "text": "Masson-Delmotte, P."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s90",
+      "text": "Zhai, A."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s91",
+      "text": "Pirani, S."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s92",
+      "text": "L."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s93",
+      "text": "Connors, C."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s94",
+      "text": "Péan, S."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s95",
+      "text": "Berger, et al."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s96",
+      "text": "(Eds.), Climate change 2021: The physical science basis."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s97",
+      "text": "Contribution of working group I to the sixth assessment report of the intergovernmental panel on climate change."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s98",
+      "text": "Cambridge University Press."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s99",
+      "text": "IPCC."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s100",
+      "text": "(2022)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s101",
+      "text": "Summary for policymakers."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s102",
+      "text": "In P."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s103",
+      "text": "R."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s104",
+      "text": "Shukla, J."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s105",
+      "text": "Skea, R."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s106",
+      "text": "Slade, A."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s107",
+      "text": "Al Khourdajie, R. van Diemen, D."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s108",
+      "text": "McCollum, et al."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s109",
+      "text": "(Eds.), Climate change 2022: Mitigation of climate change."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s110",
+      "text": "Contribution of working group III to the sixth assessment report of the intergovernmental panel on climate change."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s111",
+      "text": "Cambridge University Press. https://doi.org/10.1017/9781009157926.001 Kimoto, M., & Ghil, M."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s112",
+      "text": "(1993)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s113",
+      "text": "Multiple flow regimes in the Northern Hemisphere winter."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s114",
+      "text": "Part I: Methodology and hemispheric regimes."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s115",
+      "text": "Jour- nal of the Atmospheric Sciences, 50(16), 2625–2644. https://doi.org/10.1175/1520-0469(1993)050<2625:MFRITN>2.0.CO;2 Kohyama, T., Yamagami, Y., Miura, H., Kido, S., Tatebe, H., & Watanabe, M."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s116",
+      "text": "(2021)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s117",
+      "text": "The Gulf Stream and Kuroshio current are synchronized."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s118",
+      "text": "Science, 374(6565), 341–346. https://doi.org/10.1126/science.abh3295 Krinner, G., Guicherd, B., Ox, K., Genthon, C., & Magand, O."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s119",
+      "text": "(2008)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s120",
+      "text": "Influence of oceanic boundary conditions in simulations of Antarctic climate and surface mass balance change during the coming century."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s121",
+      "text": "Journal of Climate, 21(5), 938–962. https://doi.org/10.1175/2007JCLI1690.1 Kuroda, H., & Setou, T."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s122",
+      "text": "(2021)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s123",
+      "text": "Extensive marine heatwaves at the sea surface in the northwestern Pacific Ocean in summer 2021."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s124",
+      "text": "Remote Sens- ing, 13(19), 3989. https://doi.org/10.3390/rs13193989 Laufkötter, C., Zscheischler, J., & Frölicher, T."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s125",
+      "text": "L."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s126",
+      "text": "(2020)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s127",
+      "text": "High-impact marine heatwaves attributable to human-induced global warming."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s128",
+      "text": "Science, 369(6511), 1621–1625. https://doi.org/10.1126/science.aba0690 Lee, S., Park, M.-S., Kwon, M., Kim, Y."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s129",
+      "text": "H., & Park, Y.-G."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s130",
+      "text": "(2020)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s131",
+      "text": "Two major modes of East Asian marine heatwaves."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s132",
+      "text": "Environmental Research Letters, 15(7), 074008. https://doi.org/10.1088/1748-9326/ab8527 Lee, S.-B., Yeh, S.-W., Lee, J.-S., Park, Y.-G., Kwon, M., Jun, S.-Y., & Jo, H."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s133",
+      "text": "S."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s134",
+      "text": "(2022)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s135",
+      "text": "Roles of atmosphere thermodynamic and ocean dynamic processes on the upward trend of summer marine heatwaves occurrence in East Asian marginal seas."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s136",
+      "text": "Frontiers in Marine Science, 9, 889500. https://doi.org/10.3389/fmars.2022.889500 Li, Y., Ren, G., Wang, Q., & You, Q."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s137",
+      "text": "(2019)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s138",
+      "text": "More extreme marine heatwaves in the China Seas during the global warming hiatus."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s139",
+      "text": "Environmental Research Letters, 14(10), 104010. https://doi.org/10.1088/1748-9326/ab28bc Miyama, T., Minobe, S., & Goto, H."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s140",
+      "text": "(2021)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s141",
+      "text": "Marine heatwave of sea surface temperature of the Oyashio region in summer in 2010–2016."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s142",
+      "text": "Fron- tiers in Marine Science, 7, 576240. https://doi.org/10.3389/fmars.2020.576240 Nguyen, H., Evans, A., Lucas, C., Smith, I., & Timbal, B."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s143",
+      "text": "(2013)."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s144",
+      "text": "The Hadley circulation in reanalyses: Climatology, variability, and change."
+    },
+    {
+      "page_number": 9,
+      "sentence_id": "p9-s145",
+      "text": "Journal of Climate, 26(10), 3357–3376. https://doi.org/10.1175/JCLI-D-12-00224.1 Acknowledgments This work was supported by the Environment Research and Technology Development Fund (JPMEERF20222002) of the Environmental Restoration and Conservation Agency Provided by the Ministry of Environment of Japan, MEXT program for the advanced studies of climate change projection (SENTAN) Grant Number JPMXD0722680395, and the Climate Change Adaptation Research Program of the NIES."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s1",
+      "text": "Geophysical Research Letters HAYASHI ET AL."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s2",
+      "text": "10.1029/2022GL100785 10 of 10 Oliver, E."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s3",
+      "text": "C."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s4",
+      "text": "J."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s5",
+      "text": "(2019)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s6",
+      "text": "Mean warming not variability drives marine heatwave trends."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s7",
+      "text": "Climate Dynamics, 53(3–4), 1653–1659. https://doi. org/10.1007/s00382-019-04707-2 Oliver, E."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s8",
+      "text": "C."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s9",
+      "text": "J., Donat, M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s10",
+      "text": "G., Burrows, M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s11",
+      "text": "T., Moore, P."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s12",
+      "text": "J., Smale, D."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s13",
+      "text": "A., Alexander, L."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s14",
+      "text": "V., et al."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s15",
+      "text": "(2018)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s16",
+      "text": "Longer and more frequent marine heat- waves over the past century."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s17",
+      "text": "Nature Communications, 9(1), 1324. https://doi.org/10.1038/s41467-018-03732-9 Pilo, G."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s18",
+      "text": "S., Holbrook, N."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s19",
+      "text": "J., Kiss, A."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s20",
+      "text": "E., & Hogg, A."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s21",
+      "text": "M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s22",
+      "text": "(2019)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s23",
+      "text": "Sensitivity of marine heatwave metrics to ocean model resolution."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s24",
+      "text": "Geophysical Research Letters, 46(24), 14604–14612. https://doi.org/10.1029/2019GL084928 Plecha, S."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s25",
+      "text": "M., & Soares, P."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s26",
+      "text": "M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s27",
+      "text": "M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s28",
+      "text": "(2020)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s29",
+      "text": "Global marine heatwave events using the new CMIP6 multi-model ensemble: From shortcomings in present climate to future projections."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s30",
+      "text": "Environmental Research Letters, 15(12), 124058. https://doi.org/10.1088/1748-9326/abc847 Plecha, S."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s31",
+      "text": "M., Soares, P."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s32",
+      "text": "M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s33",
+      "text": "M., Silva-Fernandes, S."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s34",
+      "text": "M., & Cabos, W."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s35",
+      "text": "(2021)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s36",
+      "text": "On the uncertainty of future projections of marine heatwave events in the north Atlantic ocean."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s37",
+      "text": "Climate Dynamics, 56(7–8), 2027–2056. https://doi.org/10.1007/s00382-020-05529-3 Qiu, Z., Qiao, F., Jang, C."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s38",
+      "text": "J., Zhang, L., & Song, Z."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s39",
+      "text": "(2021)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s40",
+      "text": "Evaluation and projection of global marine heatwaves based on CMIP6 models."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s41",
+      "text": "Deep Sea Research Part II: Topical Studies in Oceanography, 194, 104998. https://doi.org/10.1016/j.dsr2.2021.104998 Rayner, N."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s42",
+      "text": "A., Parker, D."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s43",
+      "text": "E., Horton, E."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s44",
+      "text": "B., Folland, C."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s45",
+      "text": "K., Alexander, L."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s46",
+      "text": "V., Rowell, D."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s47",
+      "text": "P., et al."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s48",
+      "text": "(2003)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s49",
+      "text": "Global analyses of sea surface temper- ature, sea ice, and night marine air temperature since the late nineteenth century."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s50",
+      "text": "Journal of Geophysical Research, 108(D14), 4407. https:// doi.org/10.1029/2002JD002670 Saranya, J."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s51",
+      "text": "S., Roxy, M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s52",
+      "text": "K., Dasgupta, P., & Anand, A."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s53",
+      "text": "(2022)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s54",
+      "text": "Genesis and trends in marine heatwaves over the tropical Indian Ocean and their interaction with the Indian summer monsoon."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s55",
+      "text": "Journal of Geophysical Research: Oceans, 127(2), e2021JC017427. https://doi. org/10.1029/2021JC017427 Smith, K."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s56",
+      "text": "E., Burrows, M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s57",
+      "text": "T., Hobday, A."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s58",
+      "text": "J., Sen Gupta, A., Moore, P."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s59",
+      "text": "J., Thomsen, M., et al."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s60",
+      "text": "(2021)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s61",
+      "text": "Socioeconomic impacts of marine heat- waves: Global issues and opportunities."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s62",
+      "text": "Science, 374, 6566. https://doi.org/10.1126/science.abj3593 Song, F., Leung, L."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s63",
+      "text": "R., Lu, J., & Dong, L."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s64",
+      "text": "(2018)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s65",
+      "text": "Seasonally dependent responses of subtropical highs and tropical rainfall to anthropogenic warming."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s66",
+      "text": "Nature Climate Change, 8(9), 787–792. https://doi.org/10.1038/s41558-018-0244-4 Stott, P."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s67",
+      "text": "A., Christidis, N., Otto, F."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s68",
+      "text": "E."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s69",
+      "text": "L., Sun, Y., Vanderlinden, J.-P., van Oldenborgh, G."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s70",
+      "text": "J., et al."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s71",
+      "text": "(2016)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s72",
+      "text": "Attribution of extreme weather and climate-related events."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s73",
+      "text": "Wiley Interdisciplinary Reviews: Climate Change, 7(1), 23–41. https://doi.org/10.1002/wcc.380 Stott, P., Stone, D., & Allen, M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s74",
+      "text": "(2004)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s75",
+      "text": "Human contribution to the European heatwave of 2003."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s76",
+      "text": "Nature, 432(7017), 610–614. https://doi. org/10.1038/nature03089 Toda, M., & Watanabe, M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s77",
+      "text": "(2020)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s78",
+      "text": "Mechanisms of enhanced ocean surface warming in the Kuroshio region for 1951–2010."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s79",
+      "text": "Climate Dynamics, 54(9–10), 4129–4145. https://doi.org/10.1007/s00382-020-05221-6 Wang, D., Xu, T., Fang, G., Jiang, S., Wang, G., Wei, Z., & Wang, Y."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s80",
+      "text": "(2022)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s81",
+      "text": "Characteristics of marine heatwaves in the Japan/East Sea."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s82",
+      "text": "Remote Sensing, 14(4), 936. https://doi.org/10.3390/rs14040936 Xie, S."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s83",
+      "text": "P., Lu, B., & Xiang, B."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s84",
+      "text": "(2013)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s85",
+      "text": "Similar spatial patterns of climate responses to aerosol and greenhouse gas changes."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s86",
+      "text": "Nature Geoscience, 6(10), 828–832. https://doi.org/10.1038/ngeo1931 Yao, Y., Wang, J., Yin, J., & Zou, X."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s87",
+      "text": "(2020)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s88",
+      "text": "Marine heatwaves in China's marginal seas and adjacent offshore waters: Past, Present, and Future."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s89",
+      "text": "Journal of Geophysical Research: Oceans, 125(3), e2019JC015801. https://doi.org/10.1029/2019JC015801 Zhang, K., Zhang, W., Wan, H., Rasch, P."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s90",
+      "text": "J., Ghan, S."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s91",
+      "text": "J., Easter, R."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s92",
+      "text": "C., et al."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s93",
+      "text": "(2022)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s94",
+      "text": "Effective radiative forcing of anthropogenic aerosols in E3SM version 1: Historical changes, causality, decomposition, and parameterization sensitivities."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s95",
+      "text": "Atmospheric Chemistry and Physics, 22(13), 9129–9160. https://doi.org/10.5194/acp-22-9129-2022 References From the Supporting Information de Boyer Montégut, C., Madec, G., Fischer, A."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s96",
+      "text": "S., Lazar, A., & Iudicone, D."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s97",
+      "text": "(2004)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s98",
+      "text": "Mixed layer depth over the global ocean: An examination of profile data and a profile-based climatology."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s99",
+      "text": "Journal of Geophysical Research, 109(C12), C12003. https://doi.org/10.1029/2004JC002378 Hayashi, M."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s100",
+      "text": "(2022)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s101",
+      "text": "A software to calculate the fraction of attributable risks for SST variability around Japan, figshare, Software. https://doi. org/10.6084/m9.figshare.20438826 Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., et al."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s102",
+      "text": "(2019)."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s103",
+      "text": "ERA5 monthly averaged data on single levels from 1959 to present."
+    },
+    {
+      "page_number": 10,
+      "sentence_id": "p10-s104",
+      "text": "Copernicus Climate Change Service (C3S) Climate Data Store (CDS), 10, 252–266. https://doi.org/10.24381/cds.f17050d7"
+    }
+  ],
+  "source_pdf_path": "dataset/data/raw/003.pdf",
+  "warnings": []
+}

@@ -1,0 +1,78 @@
+{
+  "exact_paper_set_match": {
+    "accuracy": 0.0,
+    "matched_papers": 0,
+    "total_papers": 5
+  },
+  "macro": {
+    "f1": 0.32810282810282815,
+    "precision": 0.34693420378904255,
+    "recall": 0.3538095238095238
+  },
+  "micro": {
+    "f1": 0.4361702127659574,
+    "fn": 48,
+    "fp": 58,
+    "precision": 0.41414141414141414,
+    "recall": 0.4606741573033708,
+    "tp": 41
+  },
+  "per_entity_type": {
+    "Activity": {
+      "f1": 0.4615384615384615,
+      "fn": 4,
+      "fp": 3,
+      "precision": 0.5,
+      "recall": 0.42857142857142855,
+      "tp": 3
+    },
+    "Experiment": {
+      "f1": 0.5714285714285714,
+      "fn": 9,
+      "fp": 15,
+      "precision": 0.5161290322580645,
+      "recall": 0.64,
+      "tp": 16
+    },
+    "Frequency": {
+      "f1": 0.4761904761904762,
+      "fn": 2,
+      "fp": 9,
+      "precision": 0.35714285714285715,
+      "recall": 0.7142857142857143,
+      "tp": 5
+    },
+    "Realm": {
+      "f1": 0.0,
+      "fn": 0,
+      "fp": 21,
+      "precision": 0.0,
+      "recall": 0.0,
+      "tp": 0
+    },
+    "Source": {
+      "f1": 0.45945945945945954,
+      "fn": 33,
+      "fp": 7,
+      "precision": 0.7083333333333334,
+      "recall": 0.34,
+      "tp": 17
+    },
+    "Variable": {
+      "f1": 0.0,
+      "fn": 0,
+      "fp": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "tp": 0
+    }
+  },
+  "unresolved_or_ambiguous_gold_labels": [
+    {
+      "entity_type": "Source",
+      "pdf_number": "007",
+      "status": "unresolved_gold_label",
+      "website_label": "HadCM3"
+    }
+  ]
+}

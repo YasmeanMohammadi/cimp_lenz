@@ -1,15 +1,17 @@
-"""CLI entry point for CMIPIndexKG Phase 0."""
+"""CLI entry point for CMIPIndexKG utilities."""
 
 from __future__ import annotations
 
 import argparse
 import json
+import subprocess
 import sys
 from pathlib import Path
 from typing import Any
 
 from cmip_indexkg.evaluation.gold_mapping import DEFAULT_CANONICAL_MAPPINGS_PATH, map_gold_to_vocab
 from cmip_indexkg.evaluation.gold_schema import GoldValidationError, validate_gold_jsonl
+from cmip_indexkg.extraction.baseline import run_baseline_extraction
 from cmip_indexkg.kg.neo4j_client import ClimateKGClient
 from cmip_indexkg.kg.vocabulary_export import DEFAULT_VOCAB_PATH, export_vocabulary, inspect_schema
 
@@ -73,8 +75,47 @@ def map_gold(args: argparse.Namespace) -> int:
     return 0
 
 
+def run_baseline(args: argparse.Namespace) -> int:
+    try:
+        result = run_baseline_extraction(
+            gold_path=args.gold,
+            vocab_path=args.vocab,
+            canonical_mappings_path=args.canonical_mappings,
+            parsed_output_dir=args.parsed_output_dir,
+            predictions_output=args.predictions_output,
+            metrics_output=args.metrics_output,
+            errors_output=args.errors_output,
+        )
+    except Exception as exc:
+        print(f"Baseline extraction failed: {exc}", file=sys.stderr)
+        return 1
+    parse_summary = result["parse_summary"]
+    metrics = result["metrics"]
+    print(
+        "Baseline extraction complete: "
+        f"parsed={parse_summary['total_parsed_successfully']}/{parse_summary['total_papers_requested']} "
+        f"micro_f1={metrics['micro']['f1']:.4f}"
+    )
+    return 0
+
+
+def review_ui(args: argparse.Namespace) -> int:
+    command = [
+        sys.executable,
+        "-m",
+        "streamlit",
+        "run",
+        str(args.app),
+    ]
+    try:
+        return int(subprocess.call(command))
+    except FileNotFoundError:
+        print("Streamlit is not installed. Run `python -m pip install -e '.[dev]'` first.", file=sys.stderr)
+        return 1
+
+
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="cmip-lens", description="CMIPIndexKG Phase 0 CLI")
+    parser = argparse.ArgumentParser(prog="cmip-lens", description="CMIPIndexKG CLI")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     inspect_parser = subparsers.add_parser("inspect-climatekg-schema", help="Inspect target ClimateKG labels and sample properties")
@@ -98,6 +139,20 @@ def build_parser() -> argparse.ArgumentParser:
     map_parser.add_argument("--output-dir", default="data/evaluation/mapping", help="Directory for mapped/unresolved/ambiguous JSONL outputs")
     map_parser.add_argument("--canonical-mappings", default=DEFAULT_CANONICAL_MAPPINGS_PATH, help="Manual canonical mapping JSON path")
     map_parser.set_defaults(func=map_gold)
+
+    baseline_parser = subparsers.add_parser("run-baseline-extraction", help="Run Phase 1 rule-based extraction on the clean seed")
+    baseline_parser.add_argument("--gold", default="dataset/data/gold_seed_clean.jsonl", help="Clean seed gold JSONL path")
+    baseline_parser.add_argument("--vocab", default=DEFAULT_VOCAB_PATH, help="Read-only ClimateKG vocabulary JSONL path")
+    baseline_parser.add_argument("--canonical-mappings", default=DEFAULT_CANONICAL_MAPPINGS_PATH, help="Reviewed canonical mapping JSON path")
+    baseline_parser.add_argument("--parsed-output-dir", default="dataset/data/processed/documents", help="Directory for parsed document JSON files")
+    baseline_parser.add_argument("--predictions-output", default="dataset/data/annotations/predictions_clean.jsonl", help="Prediction JSONL output path")
+    baseline_parser.add_argument("--metrics-output", default="dataset/data/evaluation/baseline_clean_metrics.json", help="Evaluation metrics JSON output path")
+    baseline_parser.add_argument("--errors-output", default="dataset/data/evaluation/baseline_clean_errors.jsonl", help="Evaluation TP/FP/FN JSONL output path")
+    baseline_parser.set_defaults(func=run_baseline)
+
+    ui_parser = subparsers.add_parser("review-ui", help="Launch the Phase 2 Streamlit upload-and-review UI")
+    ui_parser.add_argument("--app", default="src/cmip_indexkg/ui/streamlit_app.py", help="Streamlit app path")
+    ui_parser.set_defaults(func=review_ui)
 
     return parser
 

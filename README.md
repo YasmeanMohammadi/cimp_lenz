@@ -2,7 +2,7 @@
 
 KG-grounded automatic indexing utilities for CMIP publications.
 
-This repository currently implements **Phase 0: Gold Schema and KG Alignment** only. It does not parse PDFs, annotate papers, run embeddings or LLMs, provide a UI, or write annotations back to Neo4j.
+This repository implements **Phase 0: Gold Schema and KG Alignment**, **Phase 1: clean-seed rule-based extraction baseline**, and **Phase 2: local upload-and-review UI prototype**. ClimateKG / Neo4j is read-only for this project. The system does not run embeddings or LLMs, manually add KG entities, mutate KG nodes or relationships, or write annotations back to Neo4j.
 
 ## Target KG-Backed Categories
 
@@ -73,6 +73,79 @@ The mapping command writes:
 - `data/evaluation/mapping/gold_mapping_summary.json`
 
 Manual canonical-equivalence mappings live in `config/canonical_mappings.json`. They collapse reviewed equivalent KG labels or website labels to one evaluation canonical label, for example `abrupt4xCO2 -> abrupt-4xCO2`. This prevents known equivalent KG nodes from being reported as ambiguous while preserving all matched candidates in `gold_mapped.jsonl`.
+
+## Phase 1 Clean-Seed Baseline
+
+Run deterministic PDF parsing, KG alias matching, paper-level aggregation, and clean-seed evaluation:
+
+```bash
+cmip-lens run-baseline-extraction \
+  --gold dataset/data/gold_seed_clean.jsonl \
+  --vocab data/vocab/climatekg_vocab.jsonl \
+  --canonical-mappings config/canonical_mappings.json \
+  --parsed-output-dir dataset/data/processed/documents \
+  --predictions-output dataset/data/annotations/predictions_clean.jsonl \
+  --metrics-output dataset/data/evaluation/baseline_clean_metrics.json \
+  --errors-output dataset/data/evaluation/baseline_clean_errors.jsonl
+```
+
+The command uses only the clean seed, raw PDFs, exported ClimateKG vocabulary, canonical mappings, and entity type config. It writes parsed JSON for PDFs `003` through `007`, prediction JSONL, metrics JSON, and TP/FP/FN error JSONL. ClimateKG remains read-only; no annotations are written to Neo4j.
+
+PDF parsing prefers PyMuPDF (`PyMuPDF>=1.24`, installed by `python -m pip install -e '.[dev]'`) and falls back to Poppler `pdftotext` when PyMuPDF is unavailable.
+
+Parsed document JSON includes paper metadata, `pdf_number`, SHA-256 `pdf_hash`, source PDF path, page-level text, sentence-level evidence chunks, and parser metadata.
+
+Prediction JSONL contains one object per paper. Each object includes `annotations`; each annotation includes `entity_type`, `kg_entity_id`, `canonical_id`, `canonical_label`, `matched_texts`, `mention_count`, `confidence`, `mapping_method`, and evidence with `page_number`, `sentence_id`, and text.
+
+Known Phase 1 limitations:
+
+- PDF sentence segmentation is rule-based.
+- Table extraction is not first-class yet.
+- References/background sections are not reliably filtered.
+- Alias matching can produce false positives for common realm and frequency words.
+- No semantic disambiguation, embeddings, LLMs, UI, or Neo4j write-back are used.
+
+See `reports/phase1_rule_based_extraction_baseline.md` for parsed page/sentence counts, prediction counts, metrics, major errors, and limitations.
+
+## Phase 2 Upload-And-Review UI
+
+Launch the local Streamlit prototype directly:
+
+```bash
+streamlit run src/cmip_indexkg/ui/streamlit_app.py
+```
+
+Or use the CLI wrapper:
+
+```bash
+cmip-lens review-ui
+```
+
+The UI has two modes:
+
+- `Review existing clean-seed predictions`: loads `dataset/data/annotations/predictions_clean.jsonl`, lets the user select a paper, review grouped predictions, add manual annotations, and save reviewed JSONL.
+- `Upload PDF and run extraction`: uploads a PDF, saves it locally, runs the Phase 1 deterministic extraction baseline on that one PDF, displays grouped evidence-backed annotations, and saves reviewed JSON.
+
+Upload mode writes:
+
+- `dataset/data/uploads/{run_id}.pdf`
+- `dataset/data/upload_runs/{run_id}/parsed_document.json`
+- `dataset/data/upload_runs/{run_id}/predictions.json`
+- `dataset/data/upload_runs/{run_id}/reviewed_annotations.json`
+- `dataset/data/upload_runs/{run_id}/review_summary.json`
+
+Existing-prediction review writes:
+
+- `dataset/data/review/reviewed_annotations_clean.jsonl`
+- `dataset/data/review/review_session_summary.json`
+
+Review controls support `suggested`, `accepted`, `rejected`, `corrected`, and `unresolved` statuses. Corrected annotations can be linked to another exported KG vocabulary entity through local vocabulary search. Manual annotations can also be added through local vocabulary search.
+
+Reviewed outputs preserve original prediction fields and add review fields such as `review_status`, `reviewed_at`, `reviewer_id`, `review_notes`, and `corrected_to` when applicable.
+
+This UI is a local prototype. It uses only local JSON/JSONL files, `data/vocab/climatekg_vocab.jsonl`, and `config/canonical_mappings.json`. It does not mutate ClimateKG or write annotations back to Neo4j.
+
+See `reports/phase2_upload_review_ui.md` for the workflow, review schema, verification notes, and limitations.
 
 ## Gold JSONL Shape
 

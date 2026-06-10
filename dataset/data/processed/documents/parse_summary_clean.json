@@ -1,0 +1,62 @@
+{
+  "papers": [
+    {
+      "error": null,
+      "output_path": "dataset/data/processed/documents/003.parsed.json",
+      "page_count": 10,
+      "pdf_hash": "3986ac5bcbf8f124d600423a0e548a66f3caf4fb4dc732e5e610b586b5ab66c6",
+      "pdf_number": "003",
+      "sentence_count": 461,
+      "source_pdf_path": "dataset/data/raw/003.pdf",
+      "status": "parsed",
+      "warnings": []
+    },
+    {
+      "error": null,
+      "output_path": "dataset/data/processed/documents/004.parsed.json",
+      "page_count": 14,
+      "pdf_hash": "589047b56869a7b684de11cff7b48ffd5be93edce02199772f03b23ea2b2947c",
+      "pdf_number": "004",
+      "sentence_count": 1031,
+      "source_pdf_path": "dataset/data/raw/004.pdf",
+      "status": "parsed",
+      "warnings": []
+    },
+    {
+      "error": null,
+      "output_path": "dataset/data/processed/documents/005.parsed.json",
+      "page_count": 23,
+      "pdf_hash": "161c1d50306a5320bbf52e8f3d50a6aa90c1c99a6e3bcd883a556a6e4bbfe53e",
+      "pdf_number": "005",
+      "sentence_count": 866,
+      "source_pdf_path": "dataset/data/raw/005.pdf",
+      "status": "parsed",
+      "warnings": []
+    },
+    {
+      "error": null,
+      "output_path": "dataset/data/processed/documents/006.parsed.json",
+      "page_count": 30,
+      "pdf_hash": "4efea6c4694f7dc8eb689b4bdf25cbb83ecc60cdc536c668bd585b48dfc399b1",
+      "pdf_number": "006",
+      "sentence_count": 1305,
+      "source_pdf_path": "dataset/data/raw/006.pdf",
+      "status": "parsed",
+      "warnings": []
+    },
+    {
+      "error": null,
+      "output_path": "dataset/data/processed/documents/007.parsed.json",
+      "page_count": 22,
+      "pdf_hash": "4f45b16c4a8a0d9665304fe8bfc4fa01b25e093085b890581ef0d70e56a9626f",
+      "pdf_number": "007",
+      "sentence_count": 1035,
+      "source_pdf_path": "dataset/data/raw/007.pdf",
+      "status": "parsed",
+      "warnings": []
+    }
+  ],
+  "total_failed": 0,
+  "total_papers_requested": 5,
+  "total_parsed_successfully": 5
+}
